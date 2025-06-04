@@ -1,0 +1,1 @@
+export let brandIcons = document.querySelector('.brand-icons');

@@ -1,0 +1,112 @@
+@use '../../abstracts' as a;
+@use '../../utils/mixins' as m;
+
+// ******* effect_2_start_here *******
+
+.effect-2 {
+
+    &-left,
+    &-right,
+    &-top {
+
+        .fa,
+        .fab {
+            &::after {
+                top: 0;
+            }
+        }
+    }
+
+    &-left,
+    &-top,
+    &-bottom {
+
+        .fa,
+        .fab {
+            &::after {
+                left: 0;
+            }
+        }
+    }
+
+    &-top {
+
+        .fa,
+        .fab {
+            &::after {
+                transform: translateY(-111%);
+            }
+        }
+    }
+
+    &-right {
+
+        .fa,
+        .fab {
+            &::after {
+                right: 0;
+                transform: translateX(111%);
+            }
+        }
+    }
+
+    &-bottom {
+
+        .fa,
+        .fab {
+            &::after {
+                bottom: 0;
+                transform: translateY(111%);
+            }
+        }
+    }
+
+    &-left {
+
+        .fa,
+        .fab {
+            &::after {
+                transform: translateX(-111%);
+            }
+        }
+    }
+
+    &:hover {
+        &.effect-2 {
+
+            &-top,
+            &-bottom {
+
+                .fa,
+                .fab {
+                    &::after {
+                        transform: translateY(0);
+                    }
+                }
+            }
+
+            &-left,
+            &-right {
+
+                .fa,
+                .fab {
+                    &::after {
+                        transform: translateX(0);
+                    }
+                }
+            }
+        }
+    }
+
+    .fa,
+    .fab {
+        @include m.setIconBackgroundColor('background-color', false, true);
+
+        &::after {
+            @include a.setPseudoSize(100%, 100%);
+            transition: transform .3s;
+        }
+    }
+}
+
+// ******* effect_2_end_here *******

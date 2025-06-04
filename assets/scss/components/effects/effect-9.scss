@@ -1,0 +1,25 @@
+@use '../../utils/mixins' as m;
+
+// ******* effect_9_start_here *******
+
+.effect-9 {
+    background-color: rgb(167, 167, 167);
+
+    &:hover {
+        background-color: transparent;
+
+        .fa,
+        .fab {
+            @include m.setIconBackgroundColor();
+            border-radius: 0;
+        }
+    }
+
+    .fa,
+    .fab {
+        border-radius: 100%;
+        background-color: transparent;
+    }
+}
+
+// ******* effect_9_end_here *******

@@ -1,0 +1,19 @@
+@use '../../abstracts' as a;
+@use '../../utils/mixins' as m;
+
+// ******* effect_4_start_here *******
+
+.effect-4 {
+    &:hover {
+        border-radius: 100%;
+        animation: rotate .7s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+
+        .fa,
+        .fab {
+            @include m.setIconBackgroundColor();
+
+        }
+    }
+}
+
+// ******* effect_4_end_here *******

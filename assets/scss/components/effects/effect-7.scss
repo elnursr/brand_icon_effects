@@ -1,0 +1,70 @@
+@use '../../abstracts' as a;
+@use '../../utils/mixins' as m;
+
+// ******* effect_7_start_here *******
+
+.effect-7 {
+    position: relative;
+
+    &::after,
+    &::before,
+    span::after,
+    span::before {
+        @include a.setPseudoSize(0, 0);
+        transition: width .3s, height .3s;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    &::after,
+    &::before {
+        bottom: 0;
+    }
+
+    &::after {
+        left: 0;
+        border-bottom-left-radius: 5px;
+    }
+
+    &::before {
+        right: 0;
+        z-index: 1;
+        border-bottom-right-radius: 5px;
+    }
+
+    &:hover {
+
+        .fa,
+        .fab {
+            @include m.setIconBackgroundColor();
+        }
+
+        &::after,
+        &::before,
+        span::after,
+        span::before {
+            width: 50%;
+            height: 50%;
+        }
+    }
+
+    span {
+
+        &::after,
+        &::before {
+            top: 0;
+        }
+
+        &::after {
+            left: 0;
+            border-top-left-radius: 5px;
+
+        }
+
+        &::before {
+            right: 0;
+            border-top-right-radius: 5px;
+        }
+    }
+}
+
+// ******* effect_7_end_here *******

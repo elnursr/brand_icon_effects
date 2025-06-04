@@ -1,0 +1,295 @@
+{
+    "brandIcons": {
+        "fontAwesome": {
+            "version": {
+                "v_4_7": [
+                    {
+                        "className": "fa-twitter",
+                        "contentName": "\f099",
+                        "colorValue": "#1da1f2",
+                        "webUrl": "https://twitter.com/"
+                    },
+                    {
+                        "className": "fa-youtube",
+                        "contentName": "\f167",
+                        "colorValue": "#ff0000",
+                        "webUrl": "https://www.youtube.com/?gl=US"
+                    },
+                    {
+                        "className": "fa-skype",
+                        "contentName": "\f17e",
+                        "colorValue": "#00adf1",
+                        "webUrl": "https://www.skype.com/en/features/skype-web/"
+                    },
+                    {
+                        "className": "fa-github",
+                        "contentName": "\f09b",
+                        "colorValue": "#111543",
+                        "": ""
+                    },
+                    {
+                        "className": "fa-foursquare",
+                        "contentName": "\f180",
+                        "colorValue": "#f4427e",
+                        "": ""
+                    },
+                    {
+                        "className": "fa-odnoklassniki",
+                        "contentName": "\f263",
+                        "colorValue": "#ee8208",
+                        "": ""
+                    },
+                    {
+                        "className": "fa-vk",
+                        "contentName": "\f189",
+                        "colorValue": "#4a76a8",
+                        "": ""
+                    },
+                    {
+                        "className": "fa-whatsapp",
+                        "contentName": "\f232",
+                        "colorValue": "#00e676",
+                        "": ""
+                    },
+                    {
+                        "className": "fa-instagram",
+                        "contentName": "\f16d",
+                        "colorValue": "#d02873",
+                        "": ""
+                    },
+                    {
+                        "className": "fa-dropbox",
+                        "contentName": "\f16b",
+                        "colorValue": "#0061fe",
+                        "": ""
+                    },
+                    {
+                        "className": "fa-soundcloud",
+                        "contentName": "\f1be",
+                        "colorValue": "#ff5500",
+                        "": ""
+                    },
+                    {
+                        "className": "fa-tumblr",
+                        "contentName": "\f173",
+                        "colorValue": "#37455c"
+                    },
+                    {
+                        "className": "fa-yahoo",
+                        "contentName": "\f19e",
+                        "colorValue": "#6001d2"
+                    },
+                    {
+                        "className": "fa-tripadvisor",
+                        "contentName": "\f262",
+                        "colorValue": "#00a680"
+                    },
+                    {
+                        "className": "fa-envira",
+                        "contentName": "\f299",
+                        "colorValue": "#7cbf48"
+                    },
+                    {
+                        "className": "fa-dribbble",
+                        "contentName": "\f17d",
+                        "colorValue": "#ea4c89"
+                    },
+                    {
+                        "className": "fa-flickr",
+                        "contentName": "\f16e",
+                        "colorValue": "#0063dc"
+                    },
+                    {
+                        "className": "fa-meetup",
+                        "contentName": "\f2e0",
+                        "colorValue": "#f64060"
+                    },
+                    {
+                        "className": "fa-twitch",
+                        "contentName": "\f1e8",
+                        "colorValue": "#9146ff"
+                    },
+                    {
+                        "className": "fa-vimeo",
+                        "contentName": "\f27d",
+                        "colorValue": "#1ab7ea"
+                    },
+                    {
+                        "className": "fa-spotify",
+                        "contentName": "\f1bc",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-wordpress",
+                        "contentName": "\f19a",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-qq",
+                        "contentName": "\f1d6",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-weixin",
+                        "contentName": "\f1d7",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-quora",
+                        "contentName": "\f2c4",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-xing",
+                        "contentName": "\f168",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-viadeo",
+                        "contentName": "\f2a9",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-deviantart",
+                        "contentName": "\f1bd",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-ravelry",
+                        "contentName": "\f2d9",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-renren",
+                        "contentName": "\f18b",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-windows",
+                        "contentName": "\f17a",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-stack-overflow",
+                        "contentName": "\f16c",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-paypal",
+                        "contentName": "\f1ed",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-discord",
+                        "contentName": "\f392",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-goodreads-g",
+                        "contentName": "\f3a9",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-viber",
+                        "contentName": "\f409",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-line",
+                        "contentName": "\f3c0",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-facebook",
+                        "contentName": "\f09a",
+                        "colorValue": "#3b5998",
+                        "webUrl": "https://www.facebook.com/"
+                    },
+                    {
+                        "className": "fa-facebook-f",
+                        "contentName": "\f39e",
+                        "colorValue": "#3b5998",
+                        "webUrl": "https://www.facebook.com/"
+                    },
+                    {
+                        "className": "fa-google-plus",
+                        "contentName": "\f0d5",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-google-plus-g",
+                        "contentName": "\f0d5",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-telegram",
+                        "contentName": "\f2c6",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-telegram-plane",
+                        "contentName": "\f3fe",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-pinterest",
+                        "contentName": "\f0d2",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-pinterest-p",
+                        "contentName": "\f231",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-snapchat",
+                        "contentName": "\f2ab",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-snapchat-ghost",
+                        "contentName": "\f2ac",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-reddit",
+                        "contentName": "\f1a1",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-reddit-alien",
+                        "contentName": "\f281",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-steam",
+                        "contentName": "\f1b6",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-steam-symbol",
+                        "contentName": "\f3f6",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-linkedin",
+                        "contentName": "\f0e1",
+                        "colorValue": ""
+                    },
+                    {
+                        "className": "fa-linkedin-in",
+                        "contentName": "\f08c",
+                        "colorValue": ""
+                    }
+                ],
+                "v_5.15.3": [
+                    {
+                        "className": "",
+                        "contentName": "",
+                        "colorValue": ""
+                    }
+                ]
+            }
+        }
+    }
+}

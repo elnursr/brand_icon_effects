@@ -1,0 +1,34 @@
+@use '../../abstracts' as a;
+@use '../../utils/mixins' as m;
+
+// ******* effect_5_start_here *******
+
+.effect-5 {
+    border-radius: 100%;
+
+    &:hover {
+        @include m.setBoxShadow(0, 0, 23px, 3px);
+
+        .fa,
+        .fab {
+            @include m.setIconBackgroundColor('background-color', false, true);
+
+            &::after {
+                transform: scale(1);
+            }
+        }
+    }
+
+    .fa,
+    .fab {
+        &::after {
+            @include a.setPseudoSize(100%, 100%);
+            @include a.setPseudoPosition(0, 0);
+            border-radius: 100%;
+            transition: transform .3s;
+            transform: scale(0);
+        }
+    }
+}
+
+// ******* effect_5_end_here *******

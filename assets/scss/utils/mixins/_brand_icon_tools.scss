@@ -1,0 +1,47 @@
+@use '../../abstracts'as v;
+
+@mixin setIconBackgroundColor($property:background-color, $isAfter:false, $isContent:false) {
+
+    @each $key,
+    $value in v.$brand_icon_colors_map {
+        @if($isAfter) {
+            &.#{$key}::after {
+                #{$property}: $value;
+            }
+        }
+
+        @else if($isContent) {
+            @include setPseudoContent;
+
+            &.#{$key}::after {
+                #{$property}: $value;
+            }
+        }
+
+        @else {
+            &.#{$key} {
+                #{$property}: $value;
+            }
+        }
+    }
+}
+
+@mixin setPseudoContent {
+
+    @each $key,
+    $value in v.$brand_icon_contents_map {
+        &.#{$key}::after {
+            content: $value;
+        }
+    }
+}
+
+@mixin setBoxShadow($x:0, $y:0, $blur:0, $spread:0) {
+
+    @each $key,
+    $value in v.$brand_icon_colors_map {
+        &.#{$key}-shadow {
+            box-shadow: $x $y $blur $spread $value;
+        }
+    }
+}

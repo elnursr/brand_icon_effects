@@ -1,0 +1,77 @@
+@use '../../abstracts'as a;
+@use '../../utils/mixins'as m;
+
+// ******* effect_11_start_here *******
+
+.effect-11 {
+
+    position: relative;
+
+    &::before,
+    &::after,
+    span::before,
+    span::after {
+        @include a.setPseudoSize(100%, 100%);
+        transition: background-color .3s, transform .5s;
+        transform: translate(0, 0%) rotate(45deg);
+        // icon own colors should be here...
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    &::before,
+    &::after {
+        top: 0;
+    }
+
+    span::before,
+    span::after {
+        bottom: 0;
+    }
+
+    &::before,
+    span::before {
+        left: 0;
+        z-index: 1;
+    }
+
+    &::after,
+    span::after {
+        right: 0;
+    }
+
+    &::before {
+        transform: translate(-93%, -93%) rotate(45deg);
+    }
+
+    &::after {
+        transform: translate(93%, -93%) rotate(45deg);
+    }
+
+    span::before {
+        transform: translate(-93%, 93%) rotate(45deg);
+    }
+
+    span::after {
+        transform: translate(93%, 93%) rotate(45deg);
+    }
+
+    &:hover {
+
+        &::before,
+        &::after,
+        span::before,
+        span::after {
+            transform: translate(0%, 0%) rotate(45deg);
+            background-color: transparent;
+        }
+
+        .fa,
+        .fab {
+            @include m.setIconBackgroundColor();
+            // @include m.setRombBackgroundColor();
+            transition: background-color 0.87s;
+        }
+    }
+}
+
+// ******* effect_11_end_here *******

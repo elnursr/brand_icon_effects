@@ -1,0 +1,177 @@
+// ******* brand_icon_colors_start_here *******
+
+$fa-facebook:#3b5998;
+$fa-twitter:#1da1f2;
+$fa-youtube:#ff0000;
+$fa-skype:#00adf1;
+$fa-google-plus:rgb(220, 74, 56);
+$fa-linkedin:rgb(0, 115, 176);
+$fa-reddit:rgb(255, 69, 0);
+$fa-github:#111543;
+$fa-foursquare:#f4427e;
+$fa-odnoklassniki:#ee8208;
+$fa-vk:#4a76a8;
+$fa-whatsapp:#00e676;
+$fa-instagram:#d02873;
+$fa-telegram:rgb(53, 172, 225);
+$fa-dropbox:#0061fe;
+$fa-pinterest:rgb(230, 0, 35);
+$fa-snapchat:rgb(226, 222, 0);
+$fa-soundcloud:#ff5500;
+$fa-tumblr:#37455c;
+$fa-yahoo:#6001d2;
+$fa-tripadvisor:#00a680;
+$fa-envira:#7cbf48;
+$fa-dribbble:#ea4c89;
+$fa-flickr:#0063dc;
+$fa-meetup:#f64060;
+$fa-steam:rgb(0, 63, 115);
+$fa-twitch:#9146ff;
+$fa-vimeo:#1ab7ea;
+$fa-spotify:rgb(30, 215, 96);
+$fa-wordpress:rgb(88, 88, 88);
+$fa-qq:rgb(237, 160, 24);
+$fa-weixin:rgb(107, 186, 19);
+$fa-quora:rgb(228, 67, 70);
+$fa-xing:rgb(26, 117, 118);
+$fa-viadeo:rgb(240, 115, 85);
+$fa-deviantart:rgb(4, 198, 69);
+$fa-ravelry:rgb(234, 20, 103);
+$fa-renren:rgb(0, 88, 174);
+$fa-windows:rgb(0, 168, 232);
+$fa-stack-overflow:rgb(236, 124, 34);
+$fa-paypal:rgb(0, 112, 186);
+
+// ******* font_awesome_5_start_here *******
+
+$fa-discord:rgb(114, 137, 218);
+$fa-tiktok:rgb(31, 11, 26);
+$fa-goodreads-g:rgb(121, 77, 35);
+$fa-viber:rgb(126, 85, 242);
+$fa-line:rgb(51, 213, 130);
+
+// ******* font_awesome_5_end_here *******
+
+$txt-color:rgb(0, 0, 0);
+$bg-color:rgb(167, 167, 167);
+$gradient_instagram:radial-gradient(circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%);
+
+// ******* brand_icon_colors_end_here *******
+
+// color_maps
+$brand_icon_colors_map: (fa-twitter:$fa-twitter,
+    fa-youtube:$fa-youtube,
+    fa-skype:$fa-skype,
+    fa-github:$fa-github,
+    fa-foursquare:$fa-foursquare,
+    fa-odnoklassniki:$fa-odnoklassniki,
+    fa-vk:$fa-vk,
+    fa-whatsapp:$fa-whatsapp,
+    fa-instagram:$fa-instagram,
+    fa-dropbox:$fa-dropbox,
+    fa-soundcloud:$fa-soundcloud,
+    fa-tumblr:$fa-tumblr,
+    fa-yahoo:$fa-yahoo,
+    fa-tripadvisor:$fa-tripadvisor,
+    fa-envira:$fa-envira,
+    fa-dribbble:$fa-dribbble,
+    fa-flickr:$fa-flickr,
+    fa-meetup:$fa-meetup,
+    fa-twitch:$fa-twitch,
+    fa-vimeo:$fa-vimeo,
+    fa-spotify:$fa-spotify,
+    fa-wordpress:$fa-wordpress,
+    fa-qq:$fa-qq,
+    fa-weixin:$fa-weixin,
+    fa-quora:$fa-quora,
+    fa-xing:$fa-xing,
+    fa-viadeo:$fa-viadeo,
+    fa-deviantart:$fa-deviantart,
+    fa-ravelry:$fa-ravelry,
+    fa-renren:$fa-renren,
+    fa-windows:$fa-windows,
+    fa-stack-overflow:$fa-stack-overflow,
+    fa-paypal:$fa-paypal,
+    fa-discord:$fa-discord,
+    fa-tiktok:$fa-tiktok,
+    fa-goodreads-g:$fa-goodreads-g,
+    fa-viber:$fa-viber,
+    fa-line:$fa-line,
+    // same_font_colors
+    fa-facebook:$fa-facebook,
+    fa-facebook-f:$fa-facebook,
+    fa-google-plus:$fa-google-plus,
+    fa-google-plus-g:$fa-google-plus,
+    fa-telegram:$fa-telegram,
+    fa-telegram-plane:$fa-telegram,
+    fa-pinterest:$fa-pinterest,
+    fa-pinterest-p:$fa-pinterest,
+    fa-snapchat:$fa-snapchat,
+    fa-snapchat-ghost:$fa-snapchat,
+    fa-reddit:$fa-reddit,
+    fa-reddit-alien:$fa-reddit,
+    fa-steam:$fa-steam,
+    fa-steam-symbol:$fa-steam,
+    fa-linkedin:$fa-linkedin,
+    fa-linkedin-in:$fa-linkedin);
+
+// content_maps
+$brand_icon_contents_map:(fa-twitter:'\f099',
+    fa-youtube:'\f167',
+    fa-skype:'\f17e',
+    fa-github:'\f09b',
+    fa-foursquare:'\f180',
+    fa-odnoklassniki:'\f263',
+    fa-vk:'\f189',
+    fa-whatsapp:'\f232',
+    fa-instagram:'\f16d',
+    fa-dropbox:'\f16b',
+    fa-soundcloud:'\f1be',
+    fa-tumblr:'\f173',
+    fa-yahoo:'\f19e',
+    fa-tripadvisor:'\f262',
+    fa-envira:'\f299',
+    fa-dribbble:'\f17d',
+    fa-flickr:'\f16e',
+    fa-meetup:'\f2e0',
+    fa-twitch:'\f1e8',
+    fa-vimeo:'\f27d',
+    fa-spotify:'\f1bc',
+    fa-wordpress:'\f19a',
+    fa-qq:'\f1d6',
+    fa-weixin:'\f1d7',
+    fa-quora:'\f2c4',
+    fa-xing:'\f168',
+    fa-viadeo:'\f2a9',
+    fa-deviantart:'\f1bd',
+    fa-ravelry:'\f2d9',
+    fa-renren:'\f18b',
+    fa-windows:'\f17a',
+    fa-stack-overflow:'\f16c',
+    fa-paypal:'\f1ed',
+    fa-discord:'\f392',
+    fa-tiktok:'\e07b',
+    fa-goodreads-g:'\f3a9',
+    fa-viber:'\f409',
+    fa-line:'\f3c0',
+    fa-facebook:'\f09a',
+    fa-facebook-f:'\f39e',
+    fa-google-plus:'\f0d5',
+    fa-google-plus-g:'\f0d5',
+    fa-telegram:'\f2c6',
+    fa-telegram-plane:'\f3fe',
+    fa-pinterest:'\f0d2',
+    fa-pinterest-p:'\f231',
+    fa-snapchat:'\f2ab',
+    fa-snapchat-ghost:'\f2ac',
+    fa-reddit:'\f1a1',
+    fa-reddit-alien:'\f281',
+    fa-steam:'\f1b6',
+    fa-steam-symbol:'\f3f6',
+    fa-linkedin:'\f0e1',
+    fa-linkedin-in:'\f08c');

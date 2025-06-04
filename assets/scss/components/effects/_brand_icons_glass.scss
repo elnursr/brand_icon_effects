@@ -1,0 +1,48 @@
+@use '../../abstracts' as a;
+@use '../../utils/mixins' as m;
+
+// ******* effect_6_start_here *******
+
+.brand-icons-glass {
+    position: relative;
+
+    &:hover {
+
+        .fa,
+        .fab {
+            @include m.setIconBackgroundColor();
+        }
+
+        span {
+
+            &::after,
+            &::before {
+                transform: rotate(135deg) translate(27%, -1393%);
+            }
+        }
+    }
+
+    span {
+        overflow: hidden;
+
+        &::after,
+        &::before {
+            @include a.setPseudoSize(77px, 5px);
+            @include a.setPseudoPosition(0, 0);
+            transition: transform .5s;
+            transform: rotate(135deg) translate(27%, 977%);
+            box-shadow: 0 0 27px 5px rgb(255, 255, 255);
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        &::after {
+            margin: 5px;
+        }
+
+        &::before {
+            transition-delay: .3s;
+        }
+    }
+}
+
+// ******* effect_6_end_here *******

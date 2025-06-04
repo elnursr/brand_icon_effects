@@ -1,0 +1,18 @@
+@mixin setFlexCenter($direction:row, $main_x:center, $cross_x:center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $main_x;
+    align-items: $cross_x;
+}
+
+@mixin setPseudoSize ($width:0, $height:0) {
+    content: "";
+    position: absolute;
+    width: $width;
+    height: $height;
+}
+
+@mixin setPseudoPosition ($top:0, $left:0) {
+    top: $top;
+    left: $left;
+}
