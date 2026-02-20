@@ -1,1 +1,0 @@
-export let brandIconsDataUrl = 'assets/json/_brand_icons_data.json';

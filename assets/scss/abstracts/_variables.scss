@@ -35,12 +35,21 @@ $fa-weixin:rgb(107, 186, 19);
 $fa-quora:rgb(228, 67, 70);
 $fa-xing:rgb(26, 117, 118);
 $fa-viadeo:rgb(240, 115, 85);
-$fa-deviantart:rgb(4, 198, 69);
 $fa-ravelry:rgb(234, 20, 103);
 $fa-renren:rgb(0, 88, 174);
 $fa-windows:rgb(0, 168, 232);
 $fa-stack-overflow:rgb(236, 124, 34);
 $fa-paypal:rgb(0, 112, 186);
+$fa-grav:rgb(126, 55, 240);
+$fa-android:rgb(51, 158, 73);
+$fa-amazon:rgb(242, 107, 35);
+$fa-apple:rgb(51, 51, 51);
+$fa-behance:rgb(1, 87, 255);
+$fa-bitbucket:#1868db;
+$fa-btc:#f7931a;
+$fa-deviantart:#00e59b;
+$fa-digg:#1f65db;
+$fa-drupal:#1da3de;
 
 // ******* font_awesome_5_start_here *******
 
@@ -54,12 +63,12 @@ $fa-line:rgb(51, 213, 130);
 
 $txt-color:rgb(0, 0, 0);
 $bg-color:rgb(167, 167, 167);
-$gradient_instagram:radial-gradient(circle at 30% 107%,
-    #fdf497 0%,
+$gradient_instagram:radial-gradient(circle at 31% 107%,
+    #fdf497 1%,
     #fdf497 5%,
     #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%);
+    #d6249f 61%,
+    #285aeb 91%);
 
 // ******* brand_icon_colors_end_here *******
 
@@ -91,7 +100,6 @@ $brand_icon_colors_map: (fa-twitter:$fa-twitter,
     fa-quora:$fa-quora,
     fa-xing:$fa-xing,
     fa-viadeo:$fa-viadeo,
-    fa-deviantart:$fa-deviantart,
     fa-ravelry:$fa-ravelry,
     fa-renren:$fa-renren,
     fa-windows:$fa-windows,
@@ -102,6 +110,16 @@ $brand_icon_colors_map: (fa-twitter:$fa-twitter,
     fa-goodreads-g:$fa-goodreads-g,
     fa-viber:$fa-viber,
     fa-line:$fa-line,
+    fa-grav:$fa-grav,
+    fa-android:$fa-android,
+    fa-amazon:$fa-amazon,
+    fa-apple:$fa-apple,
+    fa-behance:$fa-behance,
+    fa-bitbucket:$fa-bitbucket,
+    fa-btc:$fa-btc,
+    fa-deviantart:$fa-deviantart,
+    fa-digg:$fa-digg,
+    fa-drupal:$fa-drupal,
     // same_font_colors
     fa-facebook:$fa-facebook,
     fa-facebook-f:$fa-facebook,

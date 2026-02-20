@@ -1,0 +1,86 @@
+{
+    "font_awesome": {
+        "v_4_7": [
+            {
+                "base_class_name": "fa",
+                "icon_class_name": "fa-whatsapp",
+                "web_url": "https://www.whatsapp.com"
+            },
+            {
+                "base_class_name": "fa",
+                "icon_class_name": "fa-youtube",
+                "web_url": "https://www.youtube.com"
+            },
+            {
+                "base_class_name": "fa",
+                "icon_class_name": "fa-yahoo",
+                "web_url": "https://www.yahoo.com"
+            },
+            {
+                "base_class_name": "fa",
+                "icon_class_name": "fa-android",
+                "web_url": "https://www.android.com"
+            },
+            {
+                "base_class_name": "fa",
+                "icon_class_name": "fa-amazon",
+                "web_url": "https://www.amazon.com"
+            },
+            {
+                "base_class_name": "fa",
+                "icon_class_name": "fa-apple",
+                "web_url": "https://www.apple.com"
+            },
+            {
+                "base_class_name": "fa",
+                "icon_class_name": "fa-behance",
+                "web_url": "https://www.behance.net"
+            },
+            {
+                "base_class_name": "fa",
+                "icon_class_name": "fa-bitbucket",
+                "web_url": "https://bitbucket.org"
+            },
+            {
+                "base_class_name": "fa",
+                "icon_class_name": "fa-btc",
+                "web_url": "https://bitcoin.org"
+            },
+            {
+                "base_class_name": "fa",
+                "icon_class_name": "fa-deviantart",
+                "web_url": "https://www.deviantart.com"
+            },
+            {
+                "base_class_name": "fa",
+                "icon_class_name": "fa-digg",
+                "web_url": "https://digg.com"
+            },
+            {
+                "base_class_name": "fa",
+                "icon_class_name": "fa-dribbble",
+                "web_url": "https://dribbble.com"
+            },
+            {
+                "base_class_name": "fa",
+                "icon_class_name": "fa-dropbox",
+                "web_url": "https://www.dropbox.com"
+            },
+            {
+                "base_class_name": "fa",
+                "icon_class_name": "fa-drupal",
+                "web_url": "https://new.drupal.org"
+            },
+            {
+                "base_class_name": "fa",
+                "icon_class_name": "fa-envira",
+                "web_url": "https://enviragallery.com"
+            },
+            {
+                "base_class_name": "fa",
+                "icon_class_name": "fa-facebook",
+                "web_url": "https://www.facebook.com"
+            }
+        ]
+    }
+}
