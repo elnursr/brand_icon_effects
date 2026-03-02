@@ -1,9 +1,9 @@
-@use '../../abstracts'as a;
-@use '../../utils/mixins'as m;
+@use '../abstracts' as a;
+@use '../utils/mixins' as m;
 
-// ******* effect_11_start_here *******
+// ******* brand_icon_diamond_start_here *******
 
-.effect-11 {
+.brand-icons--diamond {
 
     position: relative;
 
@@ -74,4 +74,4 @@
     }
 }
 
-// ******* effect_11_end_here *******
+// ******* brand_icon_diamond_end_here *******

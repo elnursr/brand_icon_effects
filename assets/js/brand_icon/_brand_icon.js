@@ -23,12 +23,30 @@ BrandIcon.prototype.toUI = function (element) {
 
             icons.forEach(({ title, web_url, base_class_name, icon_class_name }) => {
                 element.innerHTML +=
+                    // `
+                    //     <li class="brand-icons__item">
+                    //         <a href="${web_url}" title="${title}" target="_blank" class="brand-icons__link brand-icons--pulse">
+                    //             <i class="${base_class_name} ${icon_class_name}"></i>
+                    //         </a>
+                    //     </li>
+                    // `;
+
+                    //         `
+                    //             <li class="brand-icons__item">
+                    //     <a href="${web_url}" title="${title}" target="_blank" class="brand-icons__link brand-icons--glass">
+                    //         <i class="${base_class_name} ${icon_class_name}"></i>
+                    //         <span></span>
+                    //     </a>
+                    // </li>
+                    //         `;
+
                     `
-                        <li class="brand-icons__item">
-                            <a href="${web_url}" title="${title}" target="_blank" class="brand-icons__link brand-icons--pulse">
-                                <i class="${base_class_name} ${icon_class_name}"></i>
-                            </a>
-                        </li>
+                    <li class="brand-icons__item">
+                        <a href="${web_url}" title="${title}" target="_blank" class="brand-icons__link brand-icons--diamond">
+                            <i class="${base_class_name} ${icon_class_name}"></i>
+                            <span></span>
+                        </a>
+                    </li>
                     `;
             });
         })

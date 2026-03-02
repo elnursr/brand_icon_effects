@@ -1,5 +1,4 @@
 @import '../vendors/css/font_awesome_v.4.7.min.css';
-@import '../vendors/css/font_awesome_pro_all_v.5.15.3.css';
 * {
   margin: 0;
   padding: 0;
@@ -386,273 +385,273 @@
   background-color: #0073b0;
 }
 
-.brand-icons-glass {
+.brand-icons--glass {
   position: relative;
 }
-.brand-icons-glass:hover .fa.fa-twitter,
-.brand-icons-glass:hover .fab.fa-twitter {
+.brand-icons--glass:hover .fa.fa-twitter,
+.brand-icons--glass:hover .fab.fa-twitter {
   background-color: #1da1f2;
 }
-.brand-icons-glass:hover .fa.fa-youtube,
-.brand-icons-glass:hover .fab.fa-youtube {
+.brand-icons--glass:hover .fa.fa-youtube,
+.brand-icons--glass:hover .fab.fa-youtube {
   background-color: #ff0000;
 }
-.brand-icons-glass:hover .fa.fa-skype,
-.brand-icons-glass:hover .fab.fa-skype {
+.brand-icons--glass:hover .fa.fa-skype,
+.brand-icons--glass:hover .fab.fa-skype {
   background-color: #00adf1;
 }
-.brand-icons-glass:hover .fa.fa-github,
-.brand-icons-glass:hover .fab.fa-github {
+.brand-icons--glass:hover .fa.fa-github,
+.brand-icons--glass:hover .fab.fa-github {
   background-color: #111543;
 }
-.brand-icons-glass:hover .fa.fa-foursquare,
-.brand-icons-glass:hover .fab.fa-foursquare {
+.brand-icons--glass:hover .fa.fa-foursquare,
+.brand-icons--glass:hover .fab.fa-foursquare {
   background-color: #f4427e;
 }
-.brand-icons-glass:hover .fa.fa-odnoklassniki,
-.brand-icons-glass:hover .fab.fa-odnoklassniki {
+.brand-icons--glass:hover .fa.fa-odnoklassniki,
+.brand-icons--glass:hover .fab.fa-odnoklassniki {
   background-color: #ee8208;
 }
-.brand-icons-glass:hover .fa.fa-vk,
-.brand-icons-glass:hover .fab.fa-vk {
+.brand-icons--glass:hover .fa.fa-vk,
+.brand-icons--glass:hover .fab.fa-vk {
   background-color: #4a76a8;
 }
-.brand-icons-glass:hover .fa.fa-whatsapp,
-.brand-icons-glass:hover .fab.fa-whatsapp {
+.brand-icons--glass:hover .fa.fa-whatsapp,
+.brand-icons--glass:hover .fab.fa-whatsapp {
   background-color: #00e676;
 }
-.brand-icons-glass:hover .fa.fa-instagram,
-.brand-icons-glass:hover .fab.fa-instagram {
+.brand-icons--glass:hover .fa.fa-instagram,
+.brand-icons--glass:hover .fab.fa-instagram {
   background-color: #d02873;
 }
-.brand-icons-glass:hover .fa.fa-dropbox,
-.brand-icons-glass:hover .fab.fa-dropbox {
+.brand-icons--glass:hover .fa.fa-dropbox,
+.brand-icons--glass:hover .fab.fa-dropbox {
   background-color: #0061fe;
 }
-.brand-icons-glass:hover .fa.fa-soundcloud,
-.brand-icons-glass:hover .fab.fa-soundcloud {
+.brand-icons--glass:hover .fa.fa-soundcloud,
+.brand-icons--glass:hover .fab.fa-soundcloud {
   background-color: #ff5500;
 }
-.brand-icons-glass:hover .fa.fa-tumblr,
-.brand-icons-glass:hover .fab.fa-tumblr {
+.brand-icons--glass:hover .fa.fa-tumblr,
+.brand-icons--glass:hover .fab.fa-tumblr {
   background-color: #37455c;
 }
-.brand-icons-glass:hover .fa.fa-yahoo,
-.brand-icons-glass:hover .fab.fa-yahoo {
+.brand-icons--glass:hover .fa.fa-yahoo,
+.brand-icons--glass:hover .fab.fa-yahoo {
   background-color: #6001d2;
 }
-.brand-icons-glass:hover .fa.fa-tripadvisor,
-.brand-icons-glass:hover .fab.fa-tripadvisor {
+.brand-icons--glass:hover .fa.fa-tripadvisor,
+.brand-icons--glass:hover .fab.fa-tripadvisor {
   background-color: #00a680;
 }
-.brand-icons-glass:hover .fa.fa-envira,
-.brand-icons-glass:hover .fab.fa-envira {
+.brand-icons--glass:hover .fa.fa-envira,
+.brand-icons--glass:hover .fab.fa-envira {
   background-color: #7cbf48;
 }
-.brand-icons-glass:hover .fa.fa-dribbble,
-.brand-icons-glass:hover .fab.fa-dribbble {
+.brand-icons--glass:hover .fa.fa-dribbble,
+.brand-icons--glass:hover .fab.fa-dribbble {
   background-color: #ea4c89;
 }
-.brand-icons-glass:hover .fa.fa-flickr,
-.brand-icons-glass:hover .fab.fa-flickr {
+.brand-icons--glass:hover .fa.fa-flickr,
+.brand-icons--glass:hover .fab.fa-flickr {
   background-color: #0063dc;
 }
-.brand-icons-glass:hover .fa.fa-meetup,
-.brand-icons-glass:hover .fab.fa-meetup {
+.brand-icons--glass:hover .fa.fa-meetup,
+.brand-icons--glass:hover .fab.fa-meetup {
   background-color: #f64060;
 }
-.brand-icons-glass:hover .fa.fa-twitch,
-.brand-icons-glass:hover .fab.fa-twitch {
+.brand-icons--glass:hover .fa.fa-twitch,
+.brand-icons--glass:hover .fab.fa-twitch {
   background-color: #9146ff;
 }
-.brand-icons-glass:hover .fa.fa-vimeo,
-.brand-icons-glass:hover .fab.fa-vimeo {
+.brand-icons--glass:hover .fa.fa-vimeo,
+.brand-icons--glass:hover .fab.fa-vimeo {
   background-color: #1ab7ea;
 }
-.brand-icons-glass:hover .fa.fa-spotify,
-.brand-icons-glass:hover .fab.fa-spotify {
+.brand-icons--glass:hover .fa.fa-spotify,
+.brand-icons--glass:hover .fab.fa-spotify {
   background-color: #1ed760;
 }
-.brand-icons-glass:hover .fa.fa-wordpress,
-.brand-icons-glass:hover .fab.fa-wordpress {
+.brand-icons--glass:hover .fa.fa-wordpress,
+.brand-icons--glass:hover .fab.fa-wordpress {
   background-color: #585858;
 }
-.brand-icons-glass:hover .fa.fa-qq,
-.brand-icons-glass:hover .fab.fa-qq {
+.brand-icons--glass:hover .fa.fa-qq,
+.brand-icons--glass:hover .fab.fa-qq {
   background-color: #eda018;
 }
-.brand-icons-glass:hover .fa.fa-weixin,
-.brand-icons-glass:hover .fab.fa-weixin {
+.brand-icons--glass:hover .fa.fa-weixin,
+.brand-icons--glass:hover .fab.fa-weixin {
   background-color: #6bba13;
 }
-.brand-icons-glass:hover .fa.fa-quora,
-.brand-icons-glass:hover .fab.fa-quora {
+.brand-icons--glass:hover .fa.fa-quora,
+.brand-icons--glass:hover .fab.fa-quora {
   background-color: #e44346;
 }
-.brand-icons-glass:hover .fa.fa-xing,
-.brand-icons-glass:hover .fab.fa-xing {
+.brand-icons--glass:hover .fa.fa-xing,
+.brand-icons--glass:hover .fab.fa-xing {
   background-color: #1a7576;
 }
-.brand-icons-glass:hover .fa.fa-viadeo,
-.brand-icons-glass:hover .fab.fa-viadeo {
+.brand-icons--glass:hover .fa.fa-viadeo,
+.brand-icons--glass:hover .fab.fa-viadeo {
   background-color: #f07355;
 }
-.brand-icons-glass:hover .fa.fa-ravelry,
-.brand-icons-glass:hover .fab.fa-ravelry {
+.brand-icons--glass:hover .fa.fa-ravelry,
+.brand-icons--glass:hover .fab.fa-ravelry {
   background-color: #ea1467;
 }
-.brand-icons-glass:hover .fa.fa-renren,
-.brand-icons-glass:hover .fab.fa-renren {
+.brand-icons--glass:hover .fa.fa-renren,
+.brand-icons--glass:hover .fab.fa-renren {
   background-color: #0058ae;
 }
-.brand-icons-glass:hover .fa.fa-windows,
-.brand-icons-glass:hover .fab.fa-windows {
+.brand-icons--glass:hover .fa.fa-windows,
+.brand-icons--glass:hover .fab.fa-windows {
   background-color: #00a8e8;
 }
-.brand-icons-glass:hover .fa.fa-linux,
-.brand-icons-glass:hover .fab.fa-linux {
+.brand-icons--glass:hover .fa.fa-linux,
+.brand-icons--glass:hover .fab.fa-linux {
   background-color: #ff6c0e;
 }
-.brand-icons-glass:hover .fa.fa-stack-overflow,
-.brand-icons-glass:hover .fab.fa-stack-overflow {
+.brand-icons--glass:hover .fa.fa-stack-overflow,
+.brand-icons--glass:hover .fab.fa-stack-overflow {
   background-color: #ec7c22;
 }
-.brand-icons-glass:hover .fa.fa-paypal,
-.brand-icons-glass:hover .fab.fa-paypal {
+.brand-icons--glass:hover .fa.fa-paypal,
+.brand-icons--glass:hover .fab.fa-paypal {
   background-color: #0070ba;
 }
-.brand-icons-glass:hover .fa.fa-discord,
-.brand-icons-glass:hover .fab.fa-discord {
+.brand-icons--glass:hover .fa.fa-discord,
+.brand-icons--glass:hover .fab.fa-discord {
   background-color: #7289da;
 }
-.brand-icons-glass:hover .fa.fa-tiktok,
-.brand-icons-glass:hover .fab.fa-tiktok {
+.brand-icons--glass:hover .fa.fa-tiktok,
+.brand-icons--glass:hover .fab.fa-tiktok {
   background-color: #1f0b1a;
 }
-.brand-icons-glass:hover .fa.fa-goodreads-g,
-.brand-icons-glass:hover .fab.fa-goodreads-g {
+.brand-icons--glass:hover .fa.fa-goodreads-g,
+.brand-icons--glass:hover .fab.fa-goodreads-g {
   background-color: #794d23;
 }
-.brand-icons-glass:hover .fa.fa-viber,
-.brand-icons-glass:hover .fab.fa-viber {
+.brand-icons--glass:hover .fa.fa-viber,
+.brand-icons--glass:hover .fab.fa-viber {
   background-color: #7e55f2;
 }
-.brand-icons-glass:hover .fa.fa-line,
-.brand-icons-glass:hover .fab.fa-line {
+.brand-icons--glass:hover .fa.fa-line,
+.brand-icons--glass:hover .fab.fa-line {
   background-color: #33d582;
 }
-.brand-icons-glass:hover .fa.fa-grav,
-.brand-icons-glass:hover .fab.fa-grav {
+.brand-icons--glass:hover .fa.fa-grav,
+.brand-icons--glass:hover .fab.fa-grav {
   background-color: #7e37f0;
 }
-.brand-icons-glass:hover .fa.fa-android,
-.brand-icons-glass:hover .fab.fa-android {
+.brand-icons--glass:hover .fa.fa-android,
+.brand-icons--glass:hover .fab.fa-android {
   background-color: #339e49;
 }
-.brand-icons-glass:hover .fa.fa-amazon,
-.brand-icons-glass:hover .fab.fa-amazon {
+.brand-icons--glass:hover .fa.fa-amazon,
+.brand-icons--glass:hover .fab.fa-amazon {
   background-color: #f26b23;
 }
-.brand-icons-glass:hover .fa.fa-apple,
-.brand-icons-glass:hover .fab.fa-apple {
+.brand-icons--glass:hover .fa.fa-apple,
+.brand-icons--glass:hover .fab.fa-apple {
   background-color: #333333;
 }
-.brand-icons-glass:hover .fa.fa-behance,
-.brand-icons-glass:hover .fab.fa-behance {
+.brand-icons--glass:hover .fa.fa-behance,
+.brand-icons--glass:hover .fab.fa-behance {
   background-color: #0157ff;
 }
-.brand-icons-glass:hover .fa.fa-bitbucket,
-.brand-icons-glass:hover .fab.fa-bitbucket {
+.brand-icons--glass:hover .fa.fa-bitbucket,
+.brand-icons--glass:hover .fab.fa-bitbucket {
   background-color: #1868db;
 }
-.brand-icons-glass:hover .fa.fa-btc,
-.brand-icons-glass:hover .fab.fa-btc {
+.brand-icons--glass:hover .fa.fa-btc,
+.brand-icons--glass:hover .fab.fa-btc {
   background-color: #f7931a;
 }
-.brand-icons-glass:hover .fa.fa-deviantart,
-.brand-icons-glass:hover .fab.fa-deviantart {
+.brand-icons--glass:hover .fa.fa-deviantart,
+.brand-icons--glass:hover .fab.fa-deviantart {
   background-color: #00e59b;
 }
-.brand-icons-glass:hover .fa.fa-digg,
-.brand-icons-glass:hover .fab.fa-digg {
+.brand-icons--glass:hover .fa.fa-digg,
+.brand-icons--glass:hover .fab.fa-digg {
   background-color: #1f65db;
 }
-.brand-icons-glass:hover .fa.fa-drupal,
-.brand-icons-glass:hover .fab.fa-drupal {
+.brand-icons--glass:hover .fa.fa-drupal,
+.brand-icons--glass:hover .fab.fa-drupal {
   background-color: #1da3de;
 }
-.brand-icons-glass:hover .fa.fa-facebook,
-.brand-icons-glass:hover .fab.fa-facebook {
+.brand-icons--glass:hover .fa.fa-facebook,
+.brand-icons--glass:hover .fab.fa-facebook {
   background-color: #3b5998;
 }
-.brand-icons-glass:hover .fa.fa-facebook-f,
-.brand-icons-glass:hover .fab.fa-facebook-f {
+.brand-icons--glass:hover .fa.fa-facebook-f,
+.brand-icons--glass:hover .fab.fa-facebook-f {
   background-color: #3b5998;
 }
-.brand-icons-glass:hover .fa.fa-google-plus,
-.brand-icons-glass:hover .fab.fa-google-plus {
+.brand-icons--glass:hover .fa.fa-google-plus,
+.brand-icons--glass:hover .fab.fa-google-plus {
   background-color: #dc4a38;
 }
-.brand-icons-glass:hover .fa.fa-google-plus-g,
-.brand-icons-glass:hover .fab.fa-google-plus-g {
+.brand-icons--glass:hover .fa.fa-google-plus-g,
+.brand-icons--glass:hover .fab.fa-google-plus-g {
   background-color: #dc4a38;
 }
-.brand-icons-glass:hover .fa.fa-telegram,
-.brand-icons-glass:hover .fab.fa-telegram {
+.brand-icons--glass:hover .fa.fa-telegram,
+.brand-icons--glass:hover .fab.fa-telegram {
   background-color: #35ace1;
 }
-.brand-icons-glass:hover .fa.fa-telegram-plane,
-.brand-icons-glass:hover .fab.fa-telegram-plane {
+.brand-icons--glass:hover .fa.fa-telegram-plane,
+.brand-icons--glass:hover .fab.fa-telegram-plane {
   background-color: #35ace1;
 }
-.brand-icons-glass:hover .fa.fa-pinterest,
-.brand-icons-glass:hover .fab.fa-pinterest {
+.brand-icons--glass:hover .fa.fa-pinterest,
+.brand-icons--glass:hover .fab.fa-pinterest {
   background-color: #e60023;
 }
-.brand-icons-glass:hover .fa.fa-pinterest-p,
-.brand-icons-glass:hover .fab.fa-pinterest-p {
+.brand-icons--glass:hover .fa.fa-pinterest-p,
+.brand-icons--glass:hover .fab.fa-pinterest-p {
   background-color: #e60023;
 }
-.brand-icons-glass:hover .fa.fa-snapchat,
-.brand-icons-glass:hover .fab.fa-snapchat {
+.brand-icons--glass:hover .fa.fa-snapchat,
+.brand-icons--glass:hover .fab.fa-snapchat {
   background-color: #e2de00;
 }
-.brand-icons-glass:hover .fa.fa-snapchat-ghost,
-.brand-icons-glass:hover .fab.fa-snapchat-ghost {
+.brand-icons--glass:hover .fa.fa-snapchat-ghost,
+.brand-icons--glass:hover .fab.fa-snapchat-ghost {
   background-color: #e2de00;
 }
-.brand-icons-glass:hover .fa.fa-reddit,
-.brand-icons-glass:hover .fab.fa-reddit {
+.brand-icons--glass:hover .fa.fa-reddit,
+.brand-icons--glass:hover .fab.fa-reddit {
   background-color: orangered;
 }
-.brand-icons-glass:hover .fa.fa-reddit-alien,
-.brand-icons-glass:hover .fab.fa-reddit-alien {
+.brand-icons--glass:hover .fa.fa-reddit-alien,
+.brand-icons--glass:hover .fab.fa-reddit-alien {
   background-color: orangered;
 }
-.brand-icons-glass:hover .fa.fa-steam,
-.brand-icons-glass:hover .fab.fa-steam {
+.brand-icons--glass:hover .fa.fa-steam,
+.brand-icons--glass:hover .fab.fa-steam {
   background-color: #003f73;
 }
-.brand-icons-glass:hover .fa.fa-steam-symbol,
-.brand-icons-glass:hover .fab.fa-steam-symbol {
+.brand-icons--glass:hover .fa.fa-steam-symbol,
+.brand-icons--glass:hover .fab.fa-steam-symbol {
   background-color: #003f73;
 }
-.brand-icons-glass:hover .fa.fa-linkedin,
-.brand-icons-glass:hover .fab.fa-linkedin {
+.brand-icons--glass:hover .fa.fa-linkedin,
+.brand-icons--glass:hover .fab.fa-linkedin {
   background-color: #0073b0;
 }
-.brand-icons-glass:hover .fa.fa-linkedin-in,
-.brand-icons-glass:hover .fab.fa-linkedin-in {
+.brand-icons--glass:hover .fa.fa-linkedin-in,
+.brand-icons--glass:hover .fab.fa-linkedin-in {
   background-color: #0073b0;
 }
-.brand-icons-glass:hover span::after, .brand-icons-glass:hover span::before {
+.brand-icons--glass:hover span::after, .brand-icons--glass:hover span::before {
   -webkit-transform: rotate(135deg) translate(27%, -1393%);
           transform: rotate(135deg) translate(27%, -1393%);
 }
-.brand-icons-glass span {
+.brand-icons--glass span {
   overflow: hidden;
 }
-.brand-icons-glass span::after, .brand-icons-glass span::before {
+.brand-icons--glass span::after, .brand-icons--glass span::before {
   content: "";
   position: absolute;
   width: 77px;
@@ -669,10 +668,10 @@
           box-shadow: 0 0 27px 5px white;
   background-color: rgba(255, 255, 255, 0.5);
 }
-.brand-icons-glass span::after {
+.brand-icons--glass span::after {
   margin: 5px;
 }
-.brand-icons-glass span::before {
+.brand-icons--glass span::before {
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
 }
@@ -681,5 +680,324 @@
   text-align: center;
   font-weight: normal;
   letter-spacing: 1.1px;
+}
+
+.brand-icons--diamond {
+  position: relative;
+}
+.brand-icons--diamond::before, .brand-icons--diamond::after,
+.brand-icons--diamond span::before,
+.brand-icons--diamond span::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: background-color 0.3s, -webkit-transform 0.5s;
+  transition: background-color 0.3s, -webkit-transform 0.5s;
+  transition: background-color 0.3s, transform 0.5s;
+  transition: background-color 0.3s, transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transform: translate(0, 0%) rotate(45deg);
+          transform: translate(0, 0%) rotate(45deg);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.brand-icons--diamond::before, .brand-icons--diamond::after {
+  top: 0;
+}
+.brand-icons--diamond span::before,
+.brand-icons--diamond span::after {
+  bottom: 0;
+}
+.brand-icons--diamond::before,
+.brand-icons--diamond span::before {
+  left: 0;
+  z-index: 1;
+}
+.brand-icons--diamond::after,
+.brand-icons--diamond span::after {
+  right: 0;
+}
+.brand-icons--diamond::before {
+  -webkit-transform: translate(-93%, -93%) rotate(45deg);
+          transform: translate(-93%, -93%) rotate(45deg);
+}
+.brand-icons--diamond::after {
+  -webkit-transform: translate(93%, -93%) rotate(45deg);
+          transform: translate(93%, -93%) rotate(45deg);
+}
+.brand-icons--diamond span::before {
+  -webkit-transform: translate(-93%, 93%) rotate(45deg);
+          transform: translate(-93%, 93%) rotate(45deg);
+}
+.brand-icons--diamond span::after {
+  -webkit-transform: translate(93%, 93%) rotate(45deg);
+          transform: translate(93%, 93%) rotate(45deg);
+}
+.brand-icons--diamond:hover::before, .brand-icons--diamond:hover::after,
+.brand-icons--diamond:hover span::before,
+.brand-icons--diamond:hover span::after {
+  -webkit-transform: translate(0%, 0%) rotate(45deg);
+          transform: translate(0%, 0%) rotate(45deg);
+  background-color: transparent;
+}
+.brand-icons--diamond:hover .fa,
+.brand-icons--diamond:hover .fab {
+  -webkit-transition: background-color 0.87s;
+  transition: background-color 0.87s;
+}
+.brand-icons--diamond:hover .fa.fa-twitter,
+.brand-icons--diamond:hover .fab.fa-twitter {
+  background-color: #1da1f2;
+}
+.brand-icons--diamond:hover .fa.fa-youtube,
+.brand-icons--diamond:hover .fab.fa-youtube {
+  background-color: #ff0000;
+}
+.brand-icons--diamond:hover .fa.fa-skype,
+.brand-icons--diamond:hover .fab.fa-skype {
+  background-color: #00adf1;
+}
+.brand-icons--diamond:hover .fa.fa-github,
+.brand-icons--diamond:hover .fab.fa-github {
+  background-color: #111543;
+}
+.brand-icons--diamond:hover .fa.fa-foursquare,
+.brand-icons--diamond:hover .fab.fa-foursquare {
+  background-color: #f4427e;
+}
+.brand-icons--diamond:hover .fa.fa-odnoklassniki,
+.brand-icons--diamond:hover .fab.fa-odnoklassniki {
+  background-color: #ee8208;
+}
+.brand-icons--diamond:hover .fa.fa-vk,
+.brand-icons--diamond:hover .fab.fa-vk {
+  background-color: #4a76a8;
+}
+.brand-icons--diamond:hover .fa.fa-whatsapp,
+.brand-icons--diamond:hover .fab.fa-whatsapp {
+  background-color: #00e676;
+}
+.brand-icons--diamond:hover .fa.fa-instagram,
+.brand-icons--diamond:hover .fab.fa-instagram {
+  background-color: #d02873;
+}
+.brand-icons--diamond:hover .fa.fa-dropbox,
+.brand-icons--diamond:hover .fab.fa-dropbox {
+  background-color: #0061fe;
+}
+.brand-icons--diamond:hover .fa.fa-soundcloud,
+.brand-icons--diamond:hover .fab.fa-soundcloud {
+  background-color: #ff5500;
+}
+.brand-icons--diamond:hover .fa.fa-tumblr,
+.brand-icons--diamond:hover .fab.fa-tumblr {
+  background-color: #37455c;
+}
+.brand-icons--diamond:hover .fa.fa-yahoo,
+.brand-icons--diamond:hover .fab.fa-yahoo {
+  background-color: #6001d2;
+}
+.brand-icons--diamond:hover .fa.fa-tripadvisor,
+.brand-icons--diamond:hover .fab.fa-tripadvisor {
+  background-color: #00a680;
+}
+.brand-icons--diamond:hover .fa.fa-envira,
+.brand-icons--diamond:hover .fab.fa-envira {
+  background-color: #7cbf48;
+}
+.brand-icons--diamond:hover .fa.fa-dribbble,
+.brand-icons--diamond:hover .fab.fa-dribbble {
+  background-color: #ea4c89;
+}
+.brand-icons--diamond:hover .fa.fa-flickr,
+.brand-icons--diamond:hover .fab.fa-flickr {
+  background-color: #0063dc;
+}
+.brand-icons--diamond:hover .fa.fa-meetup,
+.brand-icons--diamond:hover .fab.fa-meetup {
+  background-color: #f64060;
+}
+.brand-icons--diamond:hover .fa.fa-twitch,
+.brand-icons--diamond:hover .fab.fa-twitch {
+  background-color: #9146ff;
+}
+.brand-icons--diamond:hover .fa.fa-vimeo,
+.brand-icons--diamond:hover .fab.fa-vimeo {
+  background-color: #1ab7ea;
+}
+.brand-icons--diamond:hover .fa.fa-spotify,
+.brand-icons--diamond:hover .fab.fa-spotify {
+  background-color: #1ed760;
+}
+.brand-icons--diamond:hover .fa.fa-wordpress,
+.brand-icons--diamond:hover .fab.fa-wordpress {
+  background-color: #585858;
+}
+.brand-icons--diamond:hover .fa.fa-qq,
+.brand-icons--diamond:hover .fab.fa-qq {
+  background-color: #eda018;
+}
+.brand-icons--diamond:hover .fa.fa-weixin,
+.brand-icons--diamond:hover .fab.fa-weixin {
+  background-color: #6bba13;
+}
+.brand-icons--diamond:hover .fa.fa-quora,
+.brand-icons--diamond:hover .fab.fa-quora {
+  background-color: #e44346;
+}
+.brand-icons--diamond:hover .fa.fa-xing,
+.brand-icons--diamond:hover .fab.fa-xing {
+  background-color: #1a7576;
+}
+.brand-icons--diamond:hover .fa.fa-viadeo,
+.brand-icons--diamond:hover .fab.fa-viadeo {
+  background-color: #f07355;
+}
+.brand-icons--diamond:hover .fa.fa-ravelry,
+.brand-icons--diamond:hover .fab.fa-ravelry {
+  background-color: #ea1467;
+}
+.brand-icons--diamond:hover .fa.fa-renren,
+.brand-icons--diamond:hover .fab.fa-renren {
+  background-color: #0058ae;
+}
+.brand-icons--diamond:hover .fa.fa-windows,
+.brand-icons--diamond:hover .fab.fa-windows {
+  background-color: #00a8e8;
+}
+.brand-icons--diamond:hover .fa.fa-linux,
+.brand-icons--diamond:hover .fab.fa-linux {
+  background-color: #ff6c0e;
+}
+.brand-icons--diamond:hover .fa.fa-stack-overflow,
+.brand-icons--diamond:hover .fab.fa-stack-overflow {
+  background-color: #ec7c22;
+}
+.brand-icons--diamond:hover .fa.fa-paypal,
+.brand-icons--diamond:hover .fab.fa-paypal {
+  background-color: #0070ba;
+}
+.brand-icons--diamond:hover .fa.fa-discord,
+.brand-icons--diamond:hover .fab.fa-discord {
+  background-color: #7289da;
+}
+.brand-icons--diamond:hover .fa.fa-tiktok,
+.brand-icons--diamond:hover .fab.fa-tiktok {
+  background-color: #1f0b1a;
+}
+.brand-icons--diamond:hover .fa.fa-goodreads-g,
+.brand-icons--diamond:hover .fab.fa-goodreads-g {
+  background-color: #794d23;
+}
+.brand-icons--diamond:hover .fa.fa-viber,
+.brand-icons--diamond:hover .fab.fa-viber {
+  background-color: #7e55f2;
+}
+.brand-icons--diamond:hover .fa.fa-line,
+.brand-icons--diamond:hover .fab.fa-line {
+  background-color: #33d582;
+}
+.brand-icons--diamond:hover .fa.fa-grav,
+.brand-icons--diamond:hover .fab.fa-grav {
+  background-color: #7e37f0;
+}
+.brand-icons--diamond:hover .fa.fa-android,
+.brand-icons--diamond:hover .fab.fa-android {
+  background-color: #339e49;
+}
+.brand-icons--diamond:hover .fa.fa-amazon,
+.brand-icons--diamond:hover .fab.fa-amazon {
+  background-color: #f26b23;
+}
+.brand-icons--diamond:hover .fa.fa-apple,
+.brand-icons--diamond:hover .fab.fa-apple {
+  background-color: #333333;
+}
+.brand-icons--diamond:hover .fa.fa-behance,
+.brand-icons--diamond:hover .fab.fa-behance {
+  background-color: #0157ff;
+}
+.brand-icons--diamond:hover .fa.fa-bitbucket,
+.brand-icons--diamond:hover .fab.fa-bitbucket {
+  background-color: #1868db;
+}
+.brand-icons--diamond:hover .fa.fa-btc,
+.brand-icons--diamond:hover .fab.fa-btc {
+  background-color: #f7931a;
+}
+.brand-icons--diamond:hover .fa.fa-deviantart,
+.brand-icons--diamond:hover .fab.fa-deviantart {
+  background-color: #00e59b;
+}
+.brand-icons--diamond:hover .fa.fa-digg,
+.brand-icons--diamond:hover .fab.fa-digg {
+  background-color: #1f65db;
+}
+.brand-icons--diamond:hover .fa.fa-drupal,
+.brand-icons--diamond:hover .fab.fa-drupal {
+  background-color: #1da3de;
+}
+.brand-icons--diamond:hover .fa.fa-facebook,
+.brand-icons--diamond:hover .fab.fa-facebook {
+  background-color: #3b5998;
+}
+.brand-icons--diamond:hover .fa.fa-facebook-f,
+.brand-icons--diamond:hover .fab.fa-facebook-f {
+  background-color: #3b5998;
+}
+.brand-icons--diamond:hover .fa.fa-google-plus,
+.brand-icons--diamond:hover .fab.fa-google-plus {
+  background-color: #dc4a38;
+}
+.brand-icons--diamond:hover .fa.fa-google-plus-g,
+.brand-icons--diamond:hover .fab.fa-google-plus-g {
+  background-color: #dc4a38;
+}
+.brand-icons--diamond:hover .fa.fa-telegram,
+.brand-icons--diamond:hover .fab.fa-telegram {
+  background-color: #35ace1;
+}
+.brand-icons--diamond:hover .fa.fa-telegram-plane,
+.brand-icons--diamond:hover .fab.fa-telegram-plane {
+  background-color: #35ace1;
+}
+.brand-icons--diamond:hover .fa.fa-pinterest,
+.brand-icons--diamond:hover .fab.fa-pinterest {
+  background-color: #e60023;
+}
+.brand-icons--diamond:hover .fa.fa-pinterest-p,
+.brand-icons--diamond:hover .fab.fa-pinterest-p {
+  background-color: #e60023;
+}
+.brand-icons--diamond:hover .fa.fa-snapchat,
+.brand-icons--diamond:hover .fab.fa-snapchat {
+  background-color: #e2de00;
+}
+.brand-icons--diamond:hover .fa.fa-snapchat-ghost,
+.brand-icons--diamond:hover .fab.fa-snapchat-ghost {
+  background-color: #e2de00;
+}
+.brand-icons--diamond:hover .fa.fa-reddit,
+.brand-icons--diamond:hover .fab.fa-reddit {
+  background-color: orangered;
+}
+.brand-icons--diamond:hover .fa.fa-reddit-alien,
+.brand-icons--diamond:hover .fab.fa-reddit-alien {
+  background-color: orangered;
+}
+.brand-icons--diamond:hover .fa.fa-steam,
+.brand-icons--diamond:hover .fab.fa-steam {
+  background-color: #003f73;
+}
+.brand-icons--diamond:hover .fa.fa-steam-symbol,
+.brand-icons--diamond:hover .fab.fa-steam-symbol {
+  background-color: #003f73;
+}
+.brand-icons--diamond:hover .fa.fa-linkedin,
+.brand-icons--diamond:hover .fab.fa-linkedin {
+  background-color: #0073b0;
+}
+.brand-icons--diamond:hover .fa.fa-linkedin-in,
+.brand-icons--diamond:hover .fab.fa-linkedin-in {
+  background-color: #0073b0;
 }
 /*# sourceMappingURL=main.css.map */
