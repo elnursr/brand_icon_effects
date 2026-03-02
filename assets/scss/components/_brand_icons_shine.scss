@@ -1,9 +1,9 @@
-@use '../abstracts' as a;
-@use '../utils/mixins' as m;
+@use '../abstracts'as a;
+@use '../utils/mixins'as m;
 
-// ******* effect_6_start_here *******
+// ******* brand_icon_shine_start_here *******
 
-.brand-icons--glass {
+.brand-icons--shine {
     position: relative;
 
     &:hover {
@@ -45,4 +45,4 @@
     }
 }
 
-// ******* effect_6_end_here *******
+// ******* brand_icon_shine_end_here *******

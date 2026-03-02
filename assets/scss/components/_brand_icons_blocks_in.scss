@@ -1,9 +1,9 @@
-@use '../../abstracts' as a;
-@use '../../utils/mixins' as m;
+@use '../abstracts'as a;
+@use '../utils/mixins'as m;
 
-// ******* effect_7_start_here *******
+// ******* brand_icons_blocks_in_start_here *******
 
-.effect-7 {
+.brand-icons--blocks-in {
     position: relative;
 
     &::after,
@@ -67,4 +67,4 @@
     }
 }
 
-// ******* effect_7_end_here *******
+// ******* brand_icons_blocks_in_end_here *******

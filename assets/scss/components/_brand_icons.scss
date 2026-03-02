@@ -22,7 +22,9 @@
 
             .fa,
             .fab,
+            .fa::before,
             .fa::after,
+            .fab::before,
             .fab::after {
                 color: rgb(255, 255, 255);
             }

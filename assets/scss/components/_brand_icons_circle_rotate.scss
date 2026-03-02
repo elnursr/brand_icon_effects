@@ -1,9 +1,9 @@
-@use '../../abstracts' as a;
-@use '../../utils/mixins' as m;
+@use '../abstracts'as a;
+@use '../utils/mixins'as m;
 
-// ******* effect_4_start_here *******
+// ******* brand_icons_circle_rotate_start_here *******
 
-.effect-4 {
+.brand-icons--circle-rotate {
     &:hover {
         border-radius: 100%;
         animation: rotate .7s cubic-bezier(0.18, 0.89, 0.32, 1.28);
@@ -16,4 +16,4 @@
     }
 }
 
-// ******* effect_4_end_here *******
+// ******* brand_icons_circle_rotate_end_here *******
