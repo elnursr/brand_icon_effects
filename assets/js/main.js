@@ -5,14 +5,15 @@ import { font_awesome_v_4_7_url, font_awesome_v_5_15_4_url } from './config/_url
 
 
 let version_4_7 = new BrandIcon({
+    isShadow: true,
     iconVersion: 'v_4_7',
-    iconEffect: 'circle-rotate',
+    iconEffect: 'blocks-in',
     iconVersionUrl: font_awesome_v_4_7_url
 });
 
 let version_5_15_4 = new BrandIcon({
     iconVersion: 'v_5_15_4',
-    iconEffect: 'circle-scale',
+    iconEffect: 'rotate-top-left-clockwise',
     iconVersionUrl: font_awesome_v_5_15_4_url
 });
 

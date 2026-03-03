@@ -1,9 +1,9 @@
-@use '../abstracts' as a;
-@use '../utils/mixins' as m;
+@use '../abstracts'as a;
+@use '../utils/mixins'as m;
 
-// ******* effect_5_start_here *******
+// ******* brand_icon_highlight_start_here *******
 
-.effect-5 {
+.brand-icons--highlight {
     border-radius: 100%;
 
     &:hover {
@@ -31,4 +31,4 @@
     }
 }
 
-// ******* effect_5_end_here *******
+// ******* brand_icon_highlight_end_here *******

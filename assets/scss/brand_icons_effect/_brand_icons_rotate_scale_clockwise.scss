@@ -1,22 +1,23 @@
 @use '../abstracts' as a;
 @use '../utils/mixins' as m;
 
-// ******* effect_8_start_here *******
+// ******* brand_icons_rotate_scale_clockwise_start_here *******
 
-.effect-8 {
+.brand-icons--rotate-scale-clockwise {
     &:hover {
 
         .fa,
         .fab {
+
             &::after {
-                transform: rotate(-360deg) translate(0%, 0%);
+                transform: rotate(-360deg) scale(1);
             }
         }
     }
 
     .fa,
     .fab {
-        @include m.setIconBackgroundColor(background-color, true);
+        @include m.setIconBackgroundColor(background-color, true, false);
         position: relative;
         z-index: 1;
 
@@ -24,11 +25,10 @@
             @include a.setPseudoSize(100%, 100%);
             @include a.setPseudoPosition(0, 0);
             z-index: -1;
-            transition: transform .5s;
-            transform: rotate(45deg) translate(0%, -135%);
+            transition: .5s;
+            transform: rotate(0deg) scale(0);
         }
-
     }
 }
 
-// ******* effect_8_end_here *******
+// ******* brand_icons_rotate_scale_clockwise_end_here *******

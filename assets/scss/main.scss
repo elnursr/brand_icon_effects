@@ -2,10 +2,10 @@
 
 @use 'base';
 
-@use 'components';
+@import 'brand_icons_default';
 
 // import font awesome url
 
-// @import '../vendors/css/font_awesome_v.4.7.min.css';
+@import '../vendors/css/font_awesome_v.4.7.min.css';
 
-@import '../vendors/css/font_awesome_pro_all_v.5.15.3.css';
+// @import '../vendors/css/font_awesome_pro_all_v.5.15.3.css';
