@@ -1,9 +1,9 @@
 @use '../abstracts'as a;
 @use '../utils/mixins'as m;
 
-// ******* brand_icon_shine_start_here *******
+// ******* brand_icon_flash_start_here *******
 
-.brand-icons--shine {
+.brand-icons--flash {
     position: relative;
 
     &:hover {
@@ -45,4 +45,4 @@
     }
 }
 
-// ******* brand_icon_shine_end_here *******
+// ******* brand_icon_flash_end_here *******

@@ -1,30 +1,38 @@
-// ******* brand_icon_colors_start_here *******
+// ******* brand_icons_color_start_here *******
 
+$fa-whatsapp:#00e676;
+$fa-youtube:#ff0000;
+$fa-yahoo:#6001d2;
+$fa-android:rgb(51, 158, 73);
+$fa-amazon:rgb(242, 107, 35);
+$fa-behance:rgb(1, 87, 255);
+$fa-bitbucket:#1868db;
+$fa-btc:#f7931a;
+$fa-deviantart:#00e59b;
+$fa-digg:#1f65db;
+$fa-dribbble:#ea4c89;
+$fa-dropbox:#0061fe;
+$fa-drupal:#1da3de;
+$fa-envira:#7cbf48;
 $fa-facebook:#3b5998;
 $fa-twitter:#1da1f2;
-$fa-youtube:#ff0000;
 $fa-skype:#00adf1;
 $fa-google-plus:rgb(220, 74, 56);
 $fa-linkedin:rgb(0, 115, 176);
 $fa-reddit:rgb(255, 69, 0);
 $fa-github:#111543;
 $fa-foursquare:#f4427e;
-$fa-odnoklassniki:#ee8208;
-$fa-vk:#4a76a8;
-$fa-whatsapp:#00e676;
-$fa-instagram:#d02873;
 $fa-telegram:rgb(53, 172, 225);
-$fa-dropbox:#0061fe;
 $fa-pinterest:rgb(230, 0, 35);
 $fa-snapchat:rgb(226, 222, 0);
 $fa-soundcloud:#ff5500;
-$fa-tumblr:#37455c;
-$fa-yahoo:#6001d2;
-$fa-tripadvisor:#00a680;
-$fa-envira:#7cbf48;
-$fa-dribbble:#ea4c89;
-$fa-flickr:#0063dc;
+$fa-instagram:#d02873;
+$fa-vk:#4a76a8;
+$fa-odnoklassniki:#ee8208;
 $fa-meetup:#f64060;
+$fa-tumblr:#37455c;
+$fa-tripadvisor:#00a680;
+$fa-flickr:#0063dc;
 $fa-steam:rgb(0, 63, 115);
 $fa-twitch:#9146ff;
 $fa-vimeo:#1ab7ea;
@@ -32,38 +40,31 @@ $fa-spotify:rgb(30, 215, 96);
 $fa-wordpress:rgb(88, 88, 88);
 $fa-qq:rgb(237, 160, 24);
 $fa-weixin:rgb(107, 186, 19);
-$fa-quora:rgb(228, 67, 70);
 $fa-xing:rgb(26, 117, 118);
 $fa-viadeo:rgb(240, 115, 85);
 $fa-ravelry:rgb(234, 20, 103);
-$fa-renren:rgb(0, 88, 174);
-$fa-windows:rgb(0, 168, 232);
-$fa-linux:rgb(255, 108, 14);
+$fa-grav:rgb(126, 55, 240);
 $fa-stack-overflow:rgb(236, 124, 34);
 $fa-paypal:rgb(0, 112, 186);
-$fa-grav:rgb(126, 55, 240);
-$fa-android:rgb(51, 158, 73);
-$fa-amazon:rgb(242, 107, 35);
+$fa-renren:rgb(0, 88, 174);
+$fa-quora:rgb(228, 67, 70);
+$fa-windows:rgb(0, 168, 232);
+$fa-linux:rgb(255, 108, 14);
 $fa-apple:rgb(51, 51, 51);
-$fa-behance:rgb(1, 87, 255);
-$fa-bitbucket:#1868db;
-$fa-btc:#f7931a;
-$fa-deviantart:#00e59b;
-$fa-digg:#1f65db;
-$fa-drupal:#1da3de;
 
-// ******* font_awesome_5_start_here *******
+// ******* font_awesome_5_15_4_start_here *******
 
-$fa-discord:rgb(114, 137, 218);
-$fa-tiktok:rgb(31, 11, 26);
-$fa-goodreads-g:rgb(121, 77, 35);
-$fa-viber:rgb(126, 85, 242);
 $fa-line:rgb(51, 213, 130);
+$fa-tiktok:rgb(31, 11, 26);
+$fa-viber:rgb(126, 85, 242);
+$fa-discord:rgb(114, 137, 218);
+$fa-goodreads-g:rgb(121, 77, 35);
 
-// ******* font_awesome_5_end_here *******
+// ******* font_awesome_5_15_4_end_here *******
 
 $txt-color:rgb(0, 0, 0);
 $bg-color:rgb(167, 167, 167);
+
 $gradient_instagram:radial-gradient(circle at 31% 107%,
     #fdf497 1%,
     #fdf497 5%,
@@ -71,57 +72,52 @@ $gradient_instagram:radial-gradient(circle at 31% 107%,
     #d6249f 61%,
     #285aeb 91%);
 
-// ******* brand_icon_colors_end_here *******
+// ******* brand_icons_color_end_here *******
 
 // color_maps
-$brand_icon_colors_map: (fa-twitter:$fa-twitter,
+$brand_icon_colors_map: (fa-whatsapp:$fa-whatsapp,
     fa-youtube:$fa-youtube,
+    fa-yahoo:$fa-yahoo,
+    fa-android:$fa-android,
+    fa-amazon:$fa-amazon,
+    fa-behance:$fa-behance,
+    fa-bitbucket:$fa-bitbucket,
+    fa-btc:$fa-btc,
+    fa-deviantart:$fa-deviantart,
+    fa-digg:$fa-digg,
+    fa-dribbble:$fa-dribbble,
+    fa-dropbox:$fa-dropbox,
+    fa-drupal:$fa-drupal,
+    fa-envira:$fa-envira,
+    fa-twitter:$fa-twitter,
     fa-skype:$fa-skype,
     fa-github:$fa-github,
     fa-foursquare:$fa-foursquare,
-    fa-odnoklassniki:$fa-odnoklassniki,
-    fa-vk:$fa-vk,
-    fa-whatsapp:$fa-whatsapp,
-    fa-instagram:$fa-instagram,
-    fa-dropbox:$fa-dropbox,
     fa-soundcloud:$fa-soundcloud,
-    fa-tumblr:$fa-tumblr,
-    fa-yahoo:$fa-yahoo,
-    fa-tripadvisor:$fa-tripadvisor,
-    fa-envira:$fa-envira,
-    fa-dribbble:$fa-dribbble,
-    fa-flickr:$fa-flickr,
+    fa-instagram:$fa-instagram,
+    fa-vk:$fa-vk,
+    fa-odnoklassniki:$fa-odnoklassniki,
     fa-meetup:$fa-meetup,
+    fa-tumblr:$fa-tumblr,
+    fa-tripadvisor:$fa-tripadvisor,
+    fa-flickr:$fa-flickr,
     fa-twitch:$fa-twitch,
     fa-vimeo:$fa-vimeo,
     fa-spotify:$fa-spotify,
     fa-wordpress:$fa-wordpress,
     fa-qq:$fa-qq,
     fa-weixin:$fa-weixin,
-    fa-quora:$fa-quora,
     fa-xing:$fa-xing,
     fa-viadeo:$fa-viadeo,
     fa-ravelry:$fa-ravelry,
-    fa-renren:$fa-renren,
-    fa-windows:$fa-windows,
-    fa-linux:$fa-linux,
+    fa-grav:$fa-grav,
     fa-stack-overflow:$fa-stack-overflow,
     fa-paypal:$fa-paypal,
-    fa-discord:$fa-discord,
-    fa-tiktok:$fa-tiktok,
-    fa-goodreads-g:$fa-goodreads-g,
-    fa-viber:$fa-viber,
-    fa-line:$fa-line,
-    fa-grav:$fa-grav,
-    fa-android:$fa-android,
-    fa-amazon:$fa-amazon,
+    fa-renren:$fa-renren,
+    fa-quora:$fa-quora,
+    fa-windows:$fa-windows,
+    fa-linux:$fa-linux,
     fa-apple:$fa-apple,
-    fa-behance:$fa-behance,
-    fa-bitbucket:$fa-bitbucket,
-    fa-btc:$fa-btc,
-    fa-deviantart:$fa-deviantart,
-    fa-digg:$fa-digg,
-    fa-drupal:$fa-drupal,
     // same_font_colors
     fa-facebook:$fa-facebook,
     fa-facebook-f:$fa-facebook,
@@ -138,61 +134,77 @@ $brand_icon_colors_map: (fa-twitter:$fa-twitter,
     fa-steam:$fa-steam,
     fa-steam-symbol:$fa-steam,
     fa-linkedin:$fa-linkedin,
-    fa-linkedin-in:$fa-linkedin);
+    fa-linkedin-in:$fa-linkedin,
+    fa-line:$fa-line,
+    fa-tiktok:$fa-tiktok,
+    fa-viber:$fa-viber,
+    fa-discord:$fa-discord,
+    fa-goodreads-g:$fa-goodreads-g);
 
 // content_maps
-$brand_icon_contents_map:(fa-twitter:'\f099',
-    fa-amazon:'\f270',
-    fa-youtube:'\f167',
-    fa-skype:'\f17e',
-    fa-github:'\f09b',
-    fa-foursquare:'\f180',
-    fa-odnoklassniki:'\f263',
-    fa-vk:'\f189',
+$brand_icon_contents_map:(
     fa-whatsapp:'\f232',
-    fa-instagram:'\f16d',
-    fa-dropbox:'\f16b',
-    fa-soundcloud:'\f1be',
-    fa-tumblr:'\f173',
+    fa-youtube:'\f167',
     fa-yahoo:'\f19e',
-    fa-tripadvisor:'\f262',
-    fa-envira:'\f299',
-    fa-dribbble:'\f17d',
-    fa-flickr:'\f16e',
-    fa-meetup:'\f2e0',
-    fa-twitch:'\f1e8',
-    fa-vimeo:'\f27d',
-    fa-spotify:'\f1bc',
-    fa-wordpress:'\f19a',
-    fa-qq:'\f1d6',
-    fa-weixin:'\f1d7',
-    fa-quora:'\f2c4',
-    fa-xing:'\f168',
-    fa-viadeo:'\f2a9',
+    fa-android:'\f17b',
+    fa-amazon:'\f270',
+    fa-behance:'\f1b4',
+    fa-bitbucket:'\f171',
+    fa-btc:'\f15a',
     fa-deviantart:'\f1bd',
-    fa-ravelry:'\f2d9',
-    fa-renren:'\f18b',
-    fa-windows:'\f17a',
-    fa-stack-overflow:'\f16c',
-    fa-paypal:'\f1ed',
-    fa-discord:'\f392',
-    fa-tiktok:'\e07b',
-    fa-goodreads-g:'\f3a9',
-    fa-viber:'\f409',
+    fa-digg:'\f1a6',
+    fa-dribbble:'\f17d',
+    fa-dropbox:'',
+    fa-drupal:'',
+    fa-envira:'',
+    fa-twitter:'',
+    fa-skype:'',
+    fa-github:'',
+    fa-foursquare:'',
+    fa-soundcloud:'',
+    fa-instagram:'',
+    fa-vk:'',
+    fa-odnoklassniki:'',
+    fa-meetup:'',
+    fa-tumblr:'',
+    fa-tripadvisor:'',
+    fa-flickr:'',
+    fa-twitch:'',
+    fa-vimeo:'',
+    fa-spotify:'',
+    fa-wordpress:'',
+    fa-qq:'',
+    fa-weixin:'',
+    fa-xing:'',
+    fa-viadeo:'',
+    fa-ravelry:'',
+    fa-grav:'',
+    fa-stack-overflow:'',
+    fa-paypal:'',
+    fa-renren:'',
+    fa-quora:'',
+    fa-windows:'',
+    fa-linux:'',
+    fa-apple:'',
+    fa-facebook:'',
+    fa-facebook-f:'',
+    fa-google-plus:'',
+    fa-google-plus-g:'',
+    fa-telegram:'',
+    fa-telegram-plane:'',
+    fa-pinterest:'',
+    fa-pinterest-p:'',
+    fa-snapchat:'',
+    fa-snapchat-ghost:'',
+    fa-reddit:'',
+    fa-reddit-alien:'',
+    fa-steam:'',
+    fa-steam-symbol:'',
+    fa-linkedin:'',
+    fa-linkedin-in:'',
     fa-line:'\f3c0',
-    fa-facebook:'\f09a',
-    fa-facebook-f:'\f39e',
-    fa-google-plus:'\f0d5',
-    fa-google-plus-g:'\f0d5',
-    fa-telegram:'\f2c6',
-    fa-telegram-plane:'\f3fe',
-    fa-pinterest:'\f0d2',
-    fa-pinterest-p:'\f231',
-    fa-snapchat:'\f2ab',
-    fa-snapchat-ghost:'\f2ac',
-    fa-reddit:'\f1a1',
-    fa-reddit-alien:'\f281',
-    fa-steam:'\f1b6',
-    fa-steam-symbol:'\f3f6',
-    fa-linkedin:'\f0e1',
-    fa-linkedin-in:'\f08c');
+    fa-tiktok:'\e07b',
+    fa-viber:'\f409',
+    fa-discord:'\f392',
+    fa-goodreads-g:'\f3a9'
+);

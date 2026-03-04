@@ -116,6 +116,36 @@
         },
         {
             "base_class_name": "fab",
+            "icon_class_name": "fa-line",
+            "title": "Line",
+            "web_url": "https://www.line.com"
+        },
+        {
+            "base_class_name": "fab",
+            "icon_class_name": "fa-tiktok",
+            "title": "TikTok",
+            "web_url": "https://www.tiktok.com"
+        },
+        {
+            "base_class_name": "fab",
+            "icon_class_name": "fa-viber",
+            "title": "Viber",
+            "web_url": "https://www.viber.com"
+        },
+        {
+            "base_class_name": "fab",
+            "icon_class_name": "fa-discord",
+            "title": "Discord",
+            "web_url": "https://www.discord.com"
+        },
+        {
+            "base_class_name": "fab",
+            "icon_class_name": "fa-goodreads-g",
+            "title": "Goodreads",
+            "web_url": "https://www.goodreads.com"
+        },
+        {
+            "base_class_name": "fab",
             "icon_class_name": "fa-reddit",
             "title": "Reddit",
             "web_url": "https://www.reddit.com"
@@ -281,6 +311,12 @@
             "icon_class_name": "fa-renren",
             "title": "RenRen",
             "web_url": "https://renren.com"
+        },
+        {
+            "base_class_name": "fab",
+            "icon_class_name": "fa-quora",
+            "title": "Quora",
+            "web_url": "https://quora.com"
         },
         {
             "base_class_name": "fab",

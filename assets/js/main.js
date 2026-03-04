@@ -1,22 +1,34 @@
-import { BrandIcon } from './brand_icon/_brand_icon.js';
+import { BrandIcons } from './brand_icons/_brand_icons.js';
 
-import { brandIconsElement } from './ui/_dom_selectors.js';
+import { brandIconsElement, brandIconTitleElement } from './ui/_dom_selectors.js';
+
 import { font_awesome_v_4_7_url, font_awesome_v_5_15_4_url } from './config/_urls.js';
 
 
-let version_4_7 = new BrandIcon({
-    isShadow: true,
-    iconVersion: 'v_4_7',
-    iconEffect: 'blocks-in',
-    iconVersionUrl: font_awesome_v_4_7_url
-});
+// let v_4_7 = new BrandIcons({
+//     isShadow: true,
+//     iconVersion: 'v_4_7',
+//     iconEffect: ['highlight'],
+//     // iconEffectTitle: ['Highlight', 'Flash'],
+//     // iconEffect: ['scale', 'fill', 'flash', 'diamond', 'blocks-in', 'circle-scale', 'circle-rotate', 'rotate-scale-clockwise', 'rotate-top-left-clockwise', 'highlight'],
+//     iconVersionUrl: font_awesome_v_4_7_url
+// });
 
-let version_5_15_4 = new BrandIcon({
+// v_4_7.toUI({
+//     iconsElement: brandIconsElement,
+//     titleElement: brandIconTitleElement
+// });
+
+let v_5_15_4 = new BrandIcons({
+    isShadow: true,
     iconVersion: 'v_5_15_4',
-    iconEffect: 'rotate-top-left-clockwise',
+    iconEffect: ['highlight'],
+    // iconEffectTitle: ['Highlight', 'Flash'],
+    // iconEffect: ['scale', 'fill', 'flash', 'diamond', 'blocks-in', 'circle-scale', 'circle-rotate', 'rotate-scale-clockwise', 'rotate-top-left-clockwise', 'highlight'],
     iconVersionUrl: font_awesome_v_5_15_4_url
 });
 
-version_4_7.toUI(brandIconsElement);
-
-version_5_15_4.toUI(brandIconsElement);
+v_5_15_4.toUI({
+    iconsElement: brandIconsElement,
+    titleElement: brandIconTitleElement
+});

@@ -1,0 +1,301 @@
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.brand-icons--rotate-scale-clockwise:hover .fa::after,
+.brand-icons--rotate-scale-clockwise:hover .fab::after {
+  -webkit-transform: rotate(-360deg) scale(1);
+          transform: rotate(-360deg) scale(1);
+}
+.brand-icons--rotate-scale-clockwise .fa,
+.brand-icons--rotate-scale-clockwise .fab {
+  position: relative;
+  z-index: 1;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-whatsapp::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-whatsapp::after {
+  background-color: #00e676;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-youtube::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-youtube::after {
+  background-color: #ff0000;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-yahoo::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-yahoo::after {
+  background-color: #6001d2;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-android::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-android::after {
+  background-color: #339e49;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-amazon::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-amazon::after {
+  background-color: #f26b23;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-behance::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-behance::after {
+  background-color: #0157ff;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-bitbucket::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-bitbucket::after {
+  background-color: #1868db;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-btc::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-btc::after {
+  background-color: #f7931a;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-deviantart::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-deviantart::after {
+  background-color: #00e59b;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-digg::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-digg::after {
+  background-color: #1f65db;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-dribbble::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-dribbble::after {
+  background-color: #ea4c89;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-dropbox::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-dropbox::after {
+  background-color: #0061fe;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-drupal::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-drupal::after {
+  background-color: #1da3de;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-envira::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-envira::after {
+  background-color: #7cbf48;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-twitter::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-twitter::after {
+  background-color: #1da1f2;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-skype::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-skype::after {
+  background-color: #00adf1;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-github::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-github::after {
+  background-color: #111543;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-foursquare::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-foursquare::after {
+  background-color: #f4427e;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-soundcloud::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-soundcloud::after {
+  background-color: #ff5500;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-instagram::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-instagram::after {
+  background-color: #d02873;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-vk::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-vk::after {
+  background-color: #4a76a8;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-odnoklassniki::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-odnoklassniki::after {
+  background-color: #ee8208;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-meetup::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-meetup::after {
+  background-color: #f64060;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-tumblr::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-tumblr::after {
+  background-color: #37455c;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-tripadvisor::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-tripadvisor::after {
+  background-color: #00a680;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-flickr::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-flickr::after {
+  background-color: #0063dc;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-twitch::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-twitch::after {
+  background-color: #9146ff;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-vimeo::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-vimeo::after {
+  background-color: #1ab7ea;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-spotify::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-spotify::after {
+  background-color: #1ed760;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-wordpress::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-wordpress::after {
+  background-color: #585858;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-qq::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-qq::after {
+  background-color: #eda018;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-weixin::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-weixin::after {
+  background-color: #6bba13;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-xing::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-xing::after {
+  background-color: #1a7576;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-viadeo::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-viadeo::after {
+  background-color: #f07355;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-ravelry::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-ravelry::after {
+  background-color: #ea1467;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-grav::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-grav::after {
+  background-color: #7e37f0;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-stack-overflow::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-stack-overflow::after {
+  background-color: #ec7c22;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-paypal::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-paypal::after {
+  background-color: #0070ba;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-renren::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-renren::after {
+  background-color: #0058ae;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-quora::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-quora::after {
+  background-color: #e44346;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-windows::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-windows::after {
+  background-color: #00a8e8;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-linux::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-linux::after {
+  background-color: #ff6c0e;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-apple::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-apple::after {
+  background-color: #333333;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-facebook::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-facebook::after {
+  background-color: #3b5998;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-facebook-f::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-facebook-f::after {
+  background-color: #3b5998;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-google-plus::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-google-plus::after {
+  background-color: #dc4a38;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-google-plus-g::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-google-plus-g::after {
+  background-color: #dc4a38;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-telegram::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-telegram::after {
+  background-color: #35ace1;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-telegram-plane::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-telegram-plane::after {
+  background-color: #35ace1;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-pinterest::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-pinterest::after {
+  background-color: #e60023;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-pinterest-p::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-pinterest-p::after {
+  background-color: #e60023;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-snapchat::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-snapchat::after {
+  background-color: #e2de00;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-snapchat-ghost::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-snapchat-ghost::after {
+  background-color: #e2de00;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-reddit::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-reddit::after {
+  background-color: orangered;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-reddit-alien::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-reddit-alien::after {
+  background-color: orangered;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-steam::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-steam::after {
+  background-color: #003f73;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-steam-symbol::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-steam-symbol::after {
+  background-color: #003f73;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-linkedin::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-linkedin::after {
+  background-color: #0073b0;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-linkedin-in::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-linkedin-in::after {
+  background-color: #0073b0;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-line::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-line::after {
+  background-color: #33d582;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-tiktok::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-tiktok::after {
+  background-color: #1f0b1a;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-viber::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-viber::after {
+  background-color: #7e55f2;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-discord::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-discord::after {
+  background-color: #7289da;
+}
+.brand-icons--rotate-scale-clockwise .fa.fa-goodreads-g::after,
+.brand-icons--rotate-scale-clockwise .fab.fa-goodreads-g::after {
+  background-color: #794d23;
+}
+.brand-icons--rotate-scale-clockwise .fa::after,
+.brand-icons--rotate-scale-clockwise .fab::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: rotate(0deg) scale(0);
+          transform: rotate(0deg) scale(0);
+}
+/*# sourceMappingURL=_brand_icons_rotate_scale_clockwise.css.map */

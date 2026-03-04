@@ -44,13 +44,65 @@
   z-index: 1;
   border-bottom-right-radius: 5px;
 }
-.brand-icons--blocks-in:hover .fa.fa-twitter,
-.brand-icons--blocks-in:hover .fab.fa-twitter {
-  background-color: #1da1f2;
+.brand-icons--blocks-in:hover .fa.fa-whatsapp,
+.brand-icons--blocks-in:hover .fab.fa-whatsapp {
+  background-color: #00e676;
 }
 .brand-icons--blocks-in:hover .fa.fa-youtube,
 .brand-icons--blocks-in:hover .fab.fa-youtube {
   background-color: #ff0000;
+}
+.brand-icons--blocks-in:hover .fa.fa-yahoo,
+.brand-icons--blocks-in:hover .fab.fa-yahoo {
+  background-color: #6001d2;
+}
+.brand-icons--blocks-in:hover .fa.fa-android,
+.brand-icons--blocks-in:hover .fab.fa-android {
+  background-color: #339e49;
+}
+.brand-icons--blocks-in:hover .fa.fa-amazon,
+.brand-icons--blocks-in:hover .fab.fa-amazon {
+  background-color: #f26b23;
+}
+.brand-icons--blocks-in:hover .fa.fa-behance,
+.brand-icons--blocks-in:hover .fab.fa-behance {
+  background-color: #0157ff;
+}
+.brand-icons--blocks-in:hover .fa.fa-bitbucket,
+.brand-icons--blocks-in:hover .fab.fa-bitbucket {
+  background-color: #1868db;
+}
+.brand-icons--blocks-in:hover .fa.fa-btc,
+.brand-icons--blocks-in:hover .fab.fa-btc {
+  background-color: #f7931a;
+}
+.brand-icons--blocks-in:hover .fa.fa-deviantart,
+.brand-icons--blocks-in:hover .fab.fa-deviantart {
+  background-color: #00e59b;
+}
+.brand-icons--blocks-in:hover .fa.fa-digg,
+.brand-icons--blocks-in:hover .fab.fa-digg {
+  background-color: #1f65db;
+}
+.brand-icons--blocks-in:hover .fa.fa-dribbble,
+.brand-icons--blocks-in:hover .fab.fa-dribbble {
+  background-color: #ea4c89;
+}
+.brand-icons--blocks-in:hover .fa.fa-dropbox,
+.brand-icons--blocks-in:hover .fab.fa-dropbox {
+  background-color: #0061fe;
+}
+.brand-icons--blocks-in:hover .fa.fa-drupal,
+.brand-icons--blocks-in:hover .fab.fa-drupal {
+  background-color: #1da3de;
+}
+.brand-icons--blocks-in:hover .fa.fa-envira,
+.brand-icons--blocks-in:hover .fab.fa-envira {
+  background-color: #7cbf48;
+}
+.brand-icons--blocks-in:hover .fa.fa-twitter,
+.brand-icons--blocks-in:hover .fab.fa-twitter {
+  background-color: #1da1f2;
 }
 .brand-icons--blocks-in:hover .fa.fa-skype,
 .brand-icons--blocks-in:hover .fab.fa-skype {
@@ -64,57 +116,37 @@
 .brand-icons--blocks-in:hover .fab.fa-foursquare {
   background-color: #f4427e;
 }
-.brand-icons--blocks-in:hover .fa.fa-odnoklassniki,
-.brand-icons--blocks-in:hover .fab.fa-odnoklassniki {
-  background-color: #ee8208;
-}
-.brand-icons--blocks-in:hover .fa.fa-vk,
-.brand-icons--blocks-in:hover .fab.fa-vk {
-  background-color: #4a76a8;
-}
-.brand-icons--blocks-in:hover .fa.fa-whatsapp,
-.brand-icons--blocks-in:hover .fab.fa-whatsapp {
-  background-color: #00e676;
+.brand-icons--blocks-in:hover .fa.fa-soundcloud,
+.brand-icons--blocks-in:hover .fab.fa-soundcloud {
+  background-color: #ff5500;
 }
 .brand-icons--blocks-in:hover .fa.fa-instagram,
 .brand-icons--blocks-in:hover .fab.fa-instagram {
   background-color: #d02873;
 }
-.brand-icons--blocks-in:hover .fa.fa-dropbox,
-.brand-icons--blocks-in:hover .fab.fa-dropbox {
-  background-color: #0061fe;
+.brand-icons--blocks-in:hover .fa.fa-vk,
+.brand-icons--blocks-in:hover .fab.fa-vk {
+  background-color: #4a76a8;
 }
-.brand-icons--blocks-in:hover .fa.fa-soundcloud,
-.brand-icons--blocks-in:hover .fab.fa-soundcloud {
-  background-color: #ff5500;
+.brand-icons--blocks-in:hover .fa.fa-odnoklassniki,
+.brand-icons--blocks-in:hover .fab.fa-odnoklassniki {
+  background-color: #ee8208;
+}
+.brand-icons--blocks-in:hover .fa.fa-meetup,
+.brand-icons--blocks-in:hover .fab.fa-meetup {
+  background-color: #f64060;
 }
 .brand-icons--blocks-in:hover .fa.fa-tumblr,
 .brand-icons--blocks-in:hover .fab.fa-tumblr {
   background-color: #37455c;
 }
-.brand-icons--blocks-in:hover .fa.fa-yahoo,
-.brand-icons--blocks-in:hover .fab.fa-yahoo {
-  background-color: #6001d2;
-}
 .brand-icons--blocks-in:hover .fa.fa-tripadvisor,
 .brand-icons--blocks-in:hover .fab.fa-tripadvisor {
   background-color: #00a680;
 }
-.brand-icons--blocks-in:hover .fa.fa-envira,
-.brand-icons--blocks-in:hover .fab.fa-envira {
-  background-color: #7cbf48;
-}
-.brand-icons--blocks-in:hover .fa.fa-dribbble,
-.brand-icons--blocks-in:hover .fab.fa-dribbble {
-  background-color: #ea4c89;
-}
 .brand-icons--blocks-in:hover .fa.fa-flickr,
 .brand-icons--blocks-in:hover .fab.fa-flickr {
   background-color: #0063dc;
-}
-.brand-icons--blocks-in:hover .fa.fa-meetup,
-.brand-icons--blocks-in:hover .fab.fa-meetup {
-  background-color: #f64060;
 }
 .brand-icons--blocks-in:hover .fa.fa-twitch,
 .brand-icons--blocks-in:hover .fab.fa-twitch {
@@ -140,10 +172,6 @@
 .brand-icons--blocks-in:hover .fab.fa-weixin {
   background-color: #6bba13;
 }
-.brand-icons--blocks-in:hover .fa.fa-quora,
-.brand-icons--blocks-in:hover .fab.fa-quora {
-  background-color: #e44346;
-}
 .brand-icons--blocks-in:hover .fa.fa-xing,
 .brand-icons--blocks-in:hover .fab.fa-xing {
   background-color: #1a7576;
@@ -156,17 +184,9 @@
 .brand-icons--blocks-in:hover .fab.fa-ravelry {
   background-color: #ea1467;
 }
-.brand-icons--blocks-in:hover .fa.fa-renren,
-.brand-icons--blocks-in:hover .fab.fa-renren {
-  background-color: #0058ae;
-}
-.brand-icons--blocks-in:hover .fa.fa-windows,
-.brand-icons--blocks-in:hover .fab.fa-windows {
-  background-color: #00a8e8;
-}
-.brand-icons--blocks-in:hover .fa.fa-linux,
-.brand-icons--blocks-in:hover .fab.fa-linux {
-  background-color: #ff6c0e;
+.brand-icons--blocks-in:hover .fa.fa-grav,
+.brand-icons--blocks-in:hover .fab.fa-grav {
+  background-color: #7e37f0;
 }
 .brand-icons--blocks-in:hover .fa.fa-stack-overflow,
 .brand-icons--blocks-in:hover .fab.fa-stack-overflow {
@@ -176,65 +196,25 @@
 .brand-icons--blocks-in:hover .fab.fa-paypal {
   background-color: #0070ba;
 }
-.brand-icons--blocks-in:hover .fa.fa-discord,
-.brand-icons--blocks-in:hover .fab.fa-discord {
-  background-color: #7289da;
+.brand-icons--blocks-in:hover .fa.fa-renren,
+.brand-icons--blocks-in:hover .fab.fa-renren {
+  background-color: #0058ae;
 }
-.brand-icons--blocks-in:hover .fa.fa-tiktok,
-.brand-icons--blocks-in:hover .fab.fa-tiktok {
-  background-color: #1f0b1a;
+.brand-icons--blocks-in:hover .fa.fa-quora,
+.brand-icons--blocks-in:hover .fab.fa-quora {
+  background-color: #e44346;
 }
-.brand-icons--blocks-in:hover .fa.fa-goodreads-g,
-.brand-icons--blocks-in:hover .fab.fa-goodreads-g {
-  background-color: #794d23;
+.brand-icons--blocks-in:hover .fa.fa-windows,
+.brand-icons--blocks-in:hover .fab.fa-windows {
+  background-color: #00a8e8;
 }
-.brand-icons--blocks-in:hover .fa.fa-viber,
-.brand-icons--blocks-in:hover .fab.fa-viber {
-  background-color: #7e55f2;
-}
-.brand-icons--blocks-in:hover .fa.fa-line,
-.brand-icons--blocks-in:hover .fab.fa-line {
-  background-color: #33d582;
-}
-.brand-icons--blocks-in:hover .fa.fa-grav,
-.brand-icons--blocks-in:hover .fab.fa-grav {
-  background-color: #7e37f0;
-}
-.brand-icons--blocks-in:hover .fa.fa-android,
-.brand-icons--blocks-in:hover .fab.fa-android {
-  background-color: #339e49;
-}
-.brand-icons--blocks-in:hover .fa.fa-amazon,
-.brand-icons--blocks-in:hover .fab.fa-amazon {
-  background-color: #f26b23;
+.brand-icons--blocks-in:hover .fa.fa-linux,
+.brand-icons--blocks-in:hover .fab.fa-linux {
+  background-color: #ff6c0e;
 }
 .brand-icons--blocks-in:hover .fa.fa-apple,
 .brand-icons--blocks-in:hover .fab.fa-apple {
   background-color: #333333;
-}
-.brand-icons--blocks-in:hover .fa.fa-behance,
-.brand-icons--blocks-in:hover .fab.fa-behance {
-  background-color: #0157ff;
-}
-.brand-icons--blocks-in:hover .fa.fa-bitbucket,
-.brand-icons--blocks-in:hover .fab.fa-bitbucket {
-  background-color: #1868db;
-}
-.brand-icons--blocks-in:hover .fa.fa-btc,
-.brand-icons--blocks-in:hover .fab.fa-btc {
-  background-color: #f7931a;
-}
-.brand-icons--blocks-in:hover .fa.fa-deviantart,
-.brand-icons--blocks-in:hover .fab.fa-deviantart {
-  background-color: #00e59b;
-}
-.brand-icons--blocks-in:hover .fa.fa-digg,
-.brand-icons--blocks-in:hover .fab.fa-digg {
-  background-color: #1f65db;
-}
-.brand-icons--blocks-in:hover .fa.fa-drupal,
-.brand-icons--blocks-in:hover .fab.fa-drupal {
-  background-color: #1da3de;
 }
 .brand-icons--blocks-in:hover .fa.fa-facebook,
 .brand-icons--blocks-in:hover .fab.fa-facebook {
@@ -299,6 +279,26 @@
 .brand-icons--blocks-in:hover .fa.fa-linkedin-in,
 .brand-icons--blocks-in:hover .fab.fa-linkedin-in {
   background-color: #0073b0;
+}
+.brand-icons--blocks-in:hover .fa.fa-line,
+.brand-icons--blocks-in:hover .fab.fa-line {
+  background-color: #33d582;
+}
+.brand-icons--blocks-in:hover .fa.fa-tiktok,
+.brand-icons--blocks-in:hover .fab.fa-tiktok {
+  background-color: #1f0b1a;
+}
+.brand-icons--blocks-in:hover .fa.fa-viber,
+.brand-icons--blocks-in:hover .fab.fa-viber {
+  background-color: #7e55f2;
+}
+.brand-icons--blocks-in:hover .fa.fa-discord,
+.brand-icons--blocks-in:hover .fab.fa-discord {
+  background-color: #7289da;
+}
+.brand-icons--blocks-in:hover .fa.fa-goodreads-g,
+.brand-icons--blocks-in:hover .fab.fa-goodreads-g {
+  background-color: #794d23;
 }
 .brand-icons--blocks-in:hover::after, .brand-icons--blocks-in:hover::before,
 .brand-icons--blocks-in:hover span::after,

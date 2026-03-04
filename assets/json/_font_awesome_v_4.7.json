@@ -284,6 +284,12 @@
         },
         {
             "base_class_name": "fa",
+            "icon_class_name": "fa-quora",
+            "title": "Quora",
+            "web_url": "https://quora.com"
+        },
+        {
+            "base_class_name": "fa",
             "icon_class_name": "fa-windows",
             "title": "Windows",
             "web_url": "https://www.microsoft.com/en-us/windows"
