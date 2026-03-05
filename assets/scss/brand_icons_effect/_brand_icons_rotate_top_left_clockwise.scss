@@ -7,7 +7,8 @@
     &:hover {
 
         .fa,
-        .fab {
+        .fab,
+        .fa-brands {
             &::after {
                 transform: rotate(-360deg) translate(0%, 0%);
             }
@@ -15,7 +16,8 @@
     }
 
     .fa,
-    .fab {
+    .fab,
+    .fa-brands {
         @include m.setIconBackgroundColor(background-color, true);
         position: relative;
         z-index: 1;

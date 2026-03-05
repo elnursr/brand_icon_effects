@@ -8,7 +8,8 @@
         border-radius: 100%;
 
         .fa,
-        .fab {
+        .fab,
+        .fa-brands {
             @include m.setIconBackgroundColor('background-color', false, true);
 
             &::after {
@@ -18,7 +19,8 @@
     }
 
     .fa,
-    .fab {
+    .fab,
+    .fa-brands {
 
         &::after {
             @include a.setPseudoSize(100%, 100%);

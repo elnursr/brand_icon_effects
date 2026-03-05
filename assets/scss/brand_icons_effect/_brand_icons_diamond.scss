@@ -1,5 +1,5 @@
-@use '../abstracts' as a;
-@use '../utils/mixins' as m;
+@use '../abstracts'as a;
+@use '../utils/mixins'as m;
 
 // ******* brand_icon_diamond_start_here *******
 
@@ -66,7 +66,8 @@
         }
 
         .fa,
-        .fab {
+        .fab,
+        .fa-brands {
             @include m.setIconBackgroundColor();
             // @include m.setRombBackgroundColor();
             transition: background-color 0.87s;

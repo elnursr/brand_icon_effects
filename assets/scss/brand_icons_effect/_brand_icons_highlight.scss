@@ -10,7 +10,8 @@
         @include m.setBoxShadow(0, 0, 23px, 3px);
 
         .fa,
-        .fab {
+        .fab,
+        .fa-brands {
             @include m.setIconBackgroundColor('background-color', false, true);
 
             &::after {
@@ -20,7 +21,8 @@
     }
 
     .fa,
-    .fab {
+    .fab,
+    .fa-brands {
         &::after {
             @include a.setPseudoSize(100%, 100%);
             @include a.setPseudoPosition(0, 0);

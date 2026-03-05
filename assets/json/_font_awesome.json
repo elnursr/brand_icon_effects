@@ -1,337 +1,288 @@
 {
-    "v_5_15_4": [
+    "icon_version_base_class_name": {
+        "v_4_7": "fa",
+        "v_5_15_4": "fab",
+        "v_6_7_2": "fa-brands",
+        "v_7_2": "fa-brands"
+    },
+    "icons": [
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-whatsapp",
             "title": "Whatsapp",
             "web_url": "https://www.whatsapp.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-youtube",
             "title": "YouTube",
             "web_url": "https://www.youtube.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-yahoo",
             "title": "Yahoo",
             "web_url": "https://www.yahoo.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-android",
             "title": "Android",
             "web_url": "https://www.android.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-amazon",
             "title": "Amazon",
             "web_url": "https://www.amazon.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-behance",
             "title": "Behance",
             "web_url": "https://www.behance.net"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-bitbucket",
             "title": "Bitbucket",
             "web_url": "https://bitbucket.org"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-btc",
             "title": "Bitcoin",
             "web_url": "https://bitcoin.org"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-deviantart",
             "title": "DeviantArt",
             "web_url": "https://www.deviantart.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-digg",
             "title": "Digg",
             "web_url": "https://digg.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-dribbble",
             "title": "Dribbble",
             "web_url": "https://dribbble.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-dropbox",
             "title": "Dropbox",
             "web_url": "https://www.dropbox.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-drupal",
             "title": "Drupal",
             "web_url": "https://new.drupal.org"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-envira",
             "title": "Envira",
             "web_url": "https://enviragallery.com"
         },
         {
-            "base_class_name": "fab",
-            "icon_class_name": "fa-facebook",
+            "icon_class_name": "fa-facebook-f",
             "title": "Facebook",
             "web_url": "https://www.facebook.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-twitter",
             "title": "Twitter",
             "web_url": "https://www.twitter.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-skype",
             "title": "Skype",
             "web_url": "https://www.skype.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-google-plus",
             "title": "Google+",
             "web_url": "https://workspace.google.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-linkedin",
             "title": "LinkedIn",
             "web_url": "https://www.linkedin.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-line",
             "title": "Line",
             "web_url": "https://www.line.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-tiktok",
             "title": "TikTok",
             "web_url": "https://www.tiktok.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-viber",
             "title": "Viber",
             "web_url": "https://www.viber.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-discord",
             "title": "Discord",
-            "web_url": "https://www.discord.com"
+            "web_url": "https://www.discord.com",
+            "icon_versions": [""]
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-goodreads-g",
             "title": "Goodreads",
             "web_url": "https://www.goodreads.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-reddit",
             "title": "Reddit",
             "web_url": "https://www.reddit.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-github",
             "title": "GitHub",
             "web_url": "https://www.github.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-foursquare",
             "title": "Foursquare",
             "web_url": "https://www.foursquare.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-telegram",
             "title": "Telegram",
             "web_url": "https://www.telegram.org"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-pinterest",
             "title": "Pinterest",
             "web_url": "https://www.pinterest.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-snapchat",
             "title": "Snapchat",
             "web_url": "https://www.snapchat.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-soundcloud",
             "title": "SoundCloud",
             "web_url": "https://www.soundcloud.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-instagram",
             "title": "Instagram",
             "web_url": "https://www.instagram.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-vk",
             "title": "VK",
             "web_url": "https://www.vk.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-odnoklassniki",
             "title": "OK",
             "web_url": "https://ok.ru"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-meetup",
             "title": "Meetup",
             "web_url": "https://meetup.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-tumblr",
             "title": "Tumblr",
             "web_url": "https://tumblr.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-tripadvisor",
             "title": "Tripadvisor",
             "web_url": "https://tripadvisor.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-flickr",
             "title": "Flickr",
             "web_url": "https://flickr.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-steam",
             "title": "Steam",
             "web_url": "https://store.steampowered.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-twitch",
             "title": "Twitch",
             "web_url": "https://twitch.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-vimeo",
             "title": "Vimeo",
             "web_url": "https://vimeo.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-spotify",
             "title": "Spotify",
             "web_url": "https://spotify.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-wordpress",
             "title": "Wordpress",
             "web_url": "https://wordpress.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-qq",
             "title": "QQ",
             "web_url": "https://qq.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-weixin",
             "title": "Weixin",
             "web_url": "https://weixin.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-xing",
             "title": "Xing",
             "web_url": "https://xing.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-viadeo",
             "title": "Viadeo",
             "web_url": "https://viadeo.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-ravelry",
             "title": "Ravelry",
             "web_url": "https://ravelry.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-grav",
             "title": "Grav",
             "web_url": "https://grav.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-stack-overflow",
             "title": "StackOverFlow",
             "web_url": "https://stackoverflow.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-paypal",
             "title": "PayPal",
             "web_url": "https://paypal.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-renren",
             "title": "RenRen",
             "web_url": "https://renren.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-quora",
             "title": "Quora",
             "web_url": "https://quora.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-windows",
             "title": "Windows",
             "web_url": "https://www.microsoft.com/en-us/windows"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-linux",
             "title": "Linux",
             "web_url": "https://www.linux.com"
         },
         {
-            "base_class_name": "fab",
             "icon_class_name": "fa-apple",
             "title": "Apple",
             "web_url": "https://www.apple.com"

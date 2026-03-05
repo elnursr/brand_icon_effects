@@ -9,7 +9,8 @@
     &:hover {
 
         .fa,
-        .fab {
+        .fab,
+        .fa-brands {
             @include m.setIconBackgroundColor();
         }
 

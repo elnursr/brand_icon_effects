@@ -1,4 +1,4 @@
-@use '../utils/mixins' as m;
+@use '../utils/mixins'as m;
 
 // ******* brand_icon_scale_start_here *******
 
@@ -8,7 +8,8 @@
     }
 
     .fa,
-    .fab {
+    .fab,
+    .fa-brands {
         @include m.setIconBackgroundColor();
         color: rgb(255, 255, 255);
     }

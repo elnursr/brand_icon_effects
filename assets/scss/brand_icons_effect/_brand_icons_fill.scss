@@ -1,4 +1,4 @@
-@use '../utils/mixins' as m;
+@use '../utils/mixins'as m;
 
 // ******* brand_icons_fill_start_here *******
 
@@ -9,14 +9,16 @@
         background-color: transparent;
 
         .fa,
-        .fab {
+        .fab,
+        .fa-brands {
             @include m.setIconBackgroundColor();
             border-radius: 0;
         }
     }
 
     .fa,
-    .fab {
+    .fab,
+    .fa-brands {
         border-radius: 100%;
         background-color: transparent;
     }

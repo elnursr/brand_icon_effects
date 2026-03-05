@@ -1,5 +1,5 @@
-@use '../abstracts' as a;
-@use '../utils/mixins' as m;
+@use '../abstracts'as a;
+@use '../utils/mixins'as m;
 
 // ******* effect_2_start_here *******
 
@@ -10,7 +10,8 @@
     &-top {
 
         .fa,
-        .fab {
+        .fab,
+        .fa-brands {
             &::after {
                 top: 0;
             }
@@ -22,7 +23,8 @@
     &-bottom {
 
         .fa,
-        .fab {
+        .fab,
+        .fa-brands {
             &::after {
                 left: 0;
             }
@@ -32,7 +34,8 @@
     &-top {
 
         .fa,
-        .fab {
+        .fab,
+        .fa-brands {
             &::after {
                 transform: translateY(-111%);
             }
@@ -42,7 +45,8 @@
     &-right {
 
         .fa,
-        .fab {
+        .fab,
+        .fa-brands {
             &::after {
                 right: 0;
                 transform: translateX(111%);
@@ -53,7 +57,8 @@
     &-bottom {
 
         .fa,
-        .fab {
+        .fab,
+        .fa-brands {
             &::after {
                 bottom: 0;
                 transform: translateY(111%);
@@ -64,7 +69,8 @@
     &-left {
 
         .fa,
-        .fab {
+        .fab,
+        .fa-brands {
             &::after {
                 transform: translateX(-111%);
             }
@@ -78,7 +84,8 @@
             &-bottom {
 
                 .fa,
-                .fab {
+                .fab,
+                .fa-brands {
                     &::after {
                         transform: translateY(0);
                     }
@@ -89,7 +96,8 @@
             &-right {
 
                 .fa,
-                .fab {
+                .fab,
+                .fa-brands {
                     &::after {
                         transform: translateX(0);
                     }
@@ -99,7 +107,8 @@
     }
 
     .fa,
-    .fab {
+    .fab,
+    .fa-brands {
         @include m.setIconBackgroundColor('background-color', false, true);
 
         &::after {
