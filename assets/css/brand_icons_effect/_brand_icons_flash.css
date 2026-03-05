@@ -81,6 +81,10 @@
 .brand-icons--flash:hover .fab.fa-twitter {
   background-color: #1da1f2;
 }
+.brand-icons--flash:hover .fa.fa-x-twitter,
+.brand-icons--flash:hover .fab.fa-x-twitter {
+  background-color: #000000;
+}
 .brand-icons--flash:hover .fa.fa-skype,
 .brand-icons--flash:hover .fab.fa-skype {
   background-color: #00adf1;

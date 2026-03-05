@@ -88,6 +88,10 @@
 .brand-icons--rotate-top-left-clockwise .fab.fa-twitter::after {
   background-color: #1da1f2;
 }
+.brand-icons--rotate-top-left-clockwise .fa.fa-x-twitter::after,
+.brand-icons--rotate-top-left-clockwise .fab.fa-x-twitter::after {
+  background-color: #000000;
+}
 .brand-icons--rotate-top-left-clockwise .fa.fa-skype::after,
 .brand-icons--rotate-top-left-clockwise .fab.fa-skype::after {
   background-color: #00adf1;

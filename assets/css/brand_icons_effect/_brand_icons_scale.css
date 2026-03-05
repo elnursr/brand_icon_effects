@@ -86,6 +86,10 @@
 .brand-icons--scale .fab.fa-twitter {
   background-color: #1da1f2;
 }
+.brand-icons--scale .fa.fa-x-twitter,
+.brand-icons--scale .fab.fa-x-twitter {
+  background-color: #000000;
+}
 .brand-icons--scale .fa.fa-skype,
 .brand-icons--scale .fab.fa-skype {
   background-color: #00adf1;

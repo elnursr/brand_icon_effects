@@ -140,6 +140,10 @@
 .brand-icons--diamond:hover .fab.fa-twitter {
   background-color: #1da1f2;
 }
+.brand-icons--diamond:hover .fa.fa-x-twitter,
+.brand-icons--diamond:hover .fab.fa-x-twitter {
+  background-color: #000000;
+}
 .brand-icons--diamond:hover .fa.fa-skype,
 .brand-icons--diamond:hover .fab.fa-skype {
   background-color: #00adf1;

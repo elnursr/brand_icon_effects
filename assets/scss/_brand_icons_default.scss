@@ -16,22 +16,24 @@
         &:hover {
 
             .fa,
-            .fab {
+            .fab,
+            .fa-brands {
                 background-color: transparent;
             }
 
             .fa,
             .fab,
-            .fa::before,
+            .fa-brands,
             .fa::after,
-            .fab::before,
-            .fab::after {
+            .fab::after,
+            .fa-brands::after {
                 color: rgb(255, 255, 255);
             }
         }
 
         .fa,
-        .fab {
+        .fab,
+        .fa-brands {
             @include a.setFlexCenter(row, center, center);
             position: relative;
             width: 45px;
