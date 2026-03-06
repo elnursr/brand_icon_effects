@@ -1,21 +1,27 @@
+import { brandIcon, brandIconsElement } from '../ui/_dom_selectors.js';
+import { Helper } from '../utility/_helper.js';
 import { getDataAysnc } from '../services/_data_service.js';
 
 export function BrandIcons({
     isShadow = false,
+    isDevelopment = false,
+    iconHelper = new Helper(),
+    iconSize = '',
     iconEffects = '',
     iconVersions = '',
-    iconVersionUrl = '',
-    iconEffectTitles = ''
+    iconVersionUrl = ''
 } = {}) {
     this.isShadow = isShadow;
+    this.isDevelopment = isDevelopment;
+    this.iconSize = iconSize;
+    this.iconHelper = iconHelper;
     this.iconEffects = iconEffects;
     this.iconVersions = iconVersions;
     this.iconVersionUrl = iconVersionUrl;
-    this.iconEffectTitles = iconEffectTitles;
 };
 
-BrandIcons.prototype.toUI = function ({ iconsElement }) {
-    
+BrandIcons.prototype.toUI = function () {
+
     getDataAysnc(this.iconVersionUrl)
         .then(({ icons, icon_version_base_class_name }) => {
 
@@ -25,10 +31,37 @@ BrandIcons.prototype.toUI = function ({ iconsElement }) {
 
                 for (let i = 0; i < this.iconEffects.length; i++) {
 
-                    icons.forEach(({ title, web_url, icon_class_name }) => {
+                    let brandIconsElementDevelopment, brandIconsTitleElementDevelopment;
 
-                        iconsElement.innerHTML +=
-                            `
+                    if (this.isDevelopment) {
+
+                        brandIcon.classList.add('brand-icon--development');
+                        brandIconsElement.remove();
+
+                        this.iconHelper.createElement({
+                            tagName: 'h1',
+                            attributeName: 'class',
+                            className: 'brand-icons__title',
+                            parentElement: brandIcon
+                        });
+
+                        this.iconHelper.createElement({
+                            tagName: 'ul',
+                            attributeName: 'class',
+                            className: `brand-icons ${this.iconEffects[i]}`,
+                            parentElement: brandIcon
+                        });
+
+                        brandIconsElementDevelopment = document.querySelectorAll('.brand-icons');
+                        brandIconsTitleElementDevelopment = document.querySelectorAll('.brand-icons__title');
+
+                        // in this line for development 
+                        brandIconsTitleElementDevelopment[i].innerHTML += this.iconEffects[i].replace(/-/g, ' ');
+
+                        icons.forEach(({ title, web_url, icon_class_name }) => {
+
+                            brandIconsElementDevelopment[i].innerHTML +=
+                                `
                                 <li class="brand-icons__item">
                                     <a href="${web_url}" title="${title}" target="_blank" class="brand-icons__link ${this.isShadow ? `brand-icons--${this.iconEffects[i]} ${icon_class_name}-shadow` : `brand-icons--${this.iconEffects[i]}`}">
                                         <i class="${baseClassNames} ${icon_class_name}"></i>
@@ -36,40 +69,24 @@ BrandIcons.prototype.toUI = function ({ iconsElement }) {
                                     </a>
                                 </li>
                             `;
-                    });
+                        });
+                    }
+                    else {
+
+                        icons.forEach(({ title, web_url, icon_class_name }) => {
+
+                            brandIconsElement.innerHTML +=
+                                `
+                                <li class="brand-icons__item">
+                                    <a href="${web_url}" title="${title}" target="_blank" class="brand-icons__link ${this.isShadow ? `brand-icons--${this.iconEffects[i]} ${icon_class_name}-shadow` : `brand-icons--${this.iconEffects[i]}`}">
+                                        <i class="${baseClassNames} ${icon_class_name}"></i>
+                                        <span></span>
+                                    </a>
+                                </li>
+                            `;
+                        });
+                    }
                 }
             }
         })
 }
-
-// in this section works only 2 different .json file (for example v_4_7.json and v_5_15_4)
-// BrandIcons.prototype.toUI = function ({ titleElement, iconsElement }) {
-//     getDataAysnc(this.iconVersionUrl)
-//         .then((data) => {
-
-//             // computed property using here
-//             // this.iconVersion = 'v_4_7' or 'v_5_15_4';
-//             // {['v_4_7']:icons} = data;
-//             // icons = data[v_4_7];
-//             let { [this.iconVersion]: icons } = data;
-
-//             // let icons = data[this.iconVersion];
-
-//             for (let i = 0; i < this.iconEffect.length; i++) {
-
-//                 // titleElement.innerHTML += `<h1>${this.iconEffectTitle[i]}</h1>`;
-
-//                 icons.forEach(({ title, web_url, base_class_name, icon_class_name }) => {
-//                     iconsElement.innerHTML +=
-//                         `
-//                             <li class="brand-icons__item">
-//                                 <a href="${web_url}" title="${title}" target="_blank" class="brand-icons__link ${this.isShadow ? `brand-icons--${this.iconEffect[i]} ${icon_class_name}-shadow` : `brand-icons--${this.iconEffect[i]}`}">
-//                                     <i class="${base_class_name} ${icon_class_name}"></i>
-//                                     <span></span>
-//                                 </a>
-//                             </li>
-//                         `;
-//                 });
-//             }
-//         })
-// }

@@ -1,2 +1,2 @@
-export let brandIconsElement = document.querySelector('.brand-icons'),
-    brandIconTitleElement = document.querySelector('.brand-icon__title');
+export let brandIcon = document.querySelector('.brand-icon'),
+    brandIconsElement = document.querySelector('.brand-icons');
