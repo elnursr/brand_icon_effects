@@ -1,2 +1,2 @@
 # Brand Icon Effects
-![](/assets/media/jpg/thumbnail.jpg)
+![](/assets/media/thumbnails/jpg/thumbnail.jpg)
